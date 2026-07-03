@@ -1,109 +1,143 @@
 # Hi, I'm Anoushka 👋
 
-Computer Engineering student at Thapar University.
+<p align="center">
+  <b>AI Engineer • Full Stack Developer • Developer Tools Enthusiast</b>
+</p>
 
-I enjoy building products that combine **AI, distributed systems, and great developer experience.** Most of my projects focus on solving practical problems using retrieval systems, browser technologies, backend architecture, and modern web development.
-
----
-
-## Currently Building
-
-- 🌱 Personal portfolio inspired by developer terminals
-- 🧠 AI-powered systems using RAG and LLMs
-- 🌍 GIS applications with OpenLayers
-- ⚡ Full-stack products with React, Next.js and FastAPI
+<p align="center">
+Building intelligent software that combines AI, scalable backend systems, and thoughtful user experiences.
+</p>
 
 ---
 
-## Featured Projects
+## 👩‍💻 About Me
 
-### 🧠 Konta
-> Local-first Chrome extension that turns browsing history into a searchable personal knowledge base.
+I'm a Computer Engineering student at **Thapar Institute of Engineering & Technology** with a passion for building products that solve real-world problems through **AI, browser technologies, and modern web development**.
 
-- On-device semantic embeddings
-- Knowledge graph construction
-- Context-aware retrieval
-- Session boundary detection
-- Privacy-first architecture
-
-**Tech**
-TypeScript • React • IndexedDB • Transformers.js • ONNX
+I enjoy designing systems that are fast, privacy-conscious, and intuitive—whether that's a Chrome extension running entirely on-device, an AI-powered analytics platform, or tools that improve developer productivity.
 
 ---
 
-### 📊 GINA
+## 🚀 Currently Exploring
 
-Natural language analytics platform that converts business questions into SQL using an intelligent multi-model pipeline.
-
-- Context-aware conversations
-- Streaming query execution
-- PostgreSQL analytics
-- Fast-path routing
-- SSE architecture
-
-**Tech**
-
-Next.js • TypeScript • Fastify • PostgreSQL • Supabase
+* 🤖 Agentic AI & Retrieval-Augmented Generation (RAG)
+* 🌍 GIS Applications with OpenLayers
+* ⚡ Full Stack Development with React, Next.js & FastAPI
+* 🧠 Browser-based AI and Local Inference
+* 🏗️ Scalable Backend & System Design
 
 ---
 
-### 🚀 FlowSync
+# 🚀 Featured Projects
 
-AI project memory system for coding agents.
+## 🧠 Konta
 
-- Project context management
-- Semantic retrieval
-- Incremental indexing
-- Knowledge persistence
+**A local-first Chrome extension that transforms browsing history into a searchable personal knowledge base.**
+
+* On-device semantic embeddings
+* Multi-stage retrieval pipeline
+* Knowledge graph construction
+* Context-aware session detection
+* Privacy-first architecture with zero cloud dependency
+
+**Tech Stack**
+
+`TypeScript` • `React` • `Chrome Extension API` • `IndexedDB` • `Transformers.js` • `ONNX`
 
 ---
 
-## Tech Stack
+## 📊 GINA
+
+**A natural language analytics platform that converts business questions into SQL using an intelligent multi-model pipeline.**
+
+* Natural Language → SQL
+* Context-aware conversations
+* Server-Sent Events streaming
+* Fast-path routing
+* PostgreSQL analytics
+* Multi-turn query understanding
+
+**Tech Stack**
+
+`Next.js` • `TypeScript` • `Fastify` • `PostgreSQL` • `Supabase`
+
+---
+
+## 🚀 FlowSync
+
+**An AI-powered project memory system that gives coding agents long-term contextual understanding of software projects.**
+
+* Semantic project indexing
+* Context retrieval
+* Incremental knowledge updates
+* AI-assisted code understanding
+* Developer productivity workflows
+
+---
+
+# 💻 Tech Stack
 
 ### Languages
 
-Python • TypeScript • JavaScript • C++ • Java
+`Python` • `TypeScript` • `JavaScript` • `C++` • `Java`
 
 ### Frontend
 
-React • Next.js • TailwindCSS
+`React` • `Next.js` • `Tailwind CSS`
 
 ### Backend
 
-Node.js • Express • FastAPI • PostgreSQL • MongoDB
+`Node.js` • `Express.js` • `FastAPI`
 
-### AI
+### Databases
 
-LLMs • RAG • FAISS • Transformers • ONNX
+`PostgreSQL` • `MongoDB`
 
-### Dev Tools
+### AI / ML
 
-Docker • Git • GitHub Actions • Supabase
+`LLMs` • `RAG` • `FAISS` • `Transformers.js` • `ONNX`
 
----
+### Tools
 
-## Interests
-
-- AI Engineering
-- Browser Technologies
-- Full Stack Development
-- System Design
-- Developer Tools
-- Open Source
+`Git` • `Docker` • `Supabase` • `GitHub Actions` • `Figma`
 
 ---
 
-##Find Me
+## 📈 GitHub Stats
 
-🌐 Portfolio
-https://portfolio-anoushka-kappa.vercel.app/
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=anoushkawasthi&show_icons=true&hide_border=true&theme=transparent" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anoushkawasthi&layout=compact&hide_border=true&theme=transparent" height="170"/>
+</p>
 
-💼 LinkedIn
-https://www.linkedin.com/in/anoushka-awasthi-a87754247/
-
-📫 Email
-mailto@gmail.com
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=anoushkawasthi&theme=github-compact"/>
+</p>
 
 ---
 
-*"I like building software that solves hard problems while staying simple to use."*
+## 🌐 Connect With Me
+
+<p align="center">
+  <a href="https://portfolio-anoushka-kappa.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
+  </a>
+
+  <a href="https://github.com/anoushkawasthi">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+
+  <a href="https://www.linkedin.com/in/anoushka-awasthi-a87754247/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+
+  <a href="mailto:awasthinush2580@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+</p>
+
+---
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=anoushkawasthi&style=flat-square"/>
+</p>
