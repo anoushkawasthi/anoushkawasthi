@@ -93,11 +93,16 @@ Docker • Git • GitHub Actions • Supabase
 
 ---
 
-## Find Me
+##Find Me
 
-- Portfolio
-- LinkedIn
-- Email
+🌐 Portfolio
+https://portfolio-anoushka-kappa.vercel.app/
+
+💼 LinkedIn
+https://www.linkedin.com/in/anoushka-awasthi-a87754247/
+
+📫 Email
+mailto@gmail.com
 
 ---
 
