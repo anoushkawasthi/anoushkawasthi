@@ -1,30 +1,37 @@
 # Hi, I'm Anoushka 👋
 
 <p align="center">
-  <b>AI Engineer • Full Stack Developer • Developer Tools Enthusiast</b>
+  <b>AI / Full Stack Engineer • Backend & System Design • Developer Tools</b>
 </p>
 
 <p align="center">
-Building intelligent software that combines AI, scalable backend systems, and thoughtful user experiences.
+  Building AI-powered products, scalable backend systems, and developer-focused tools.
+</p>
+
+<p align="center">
+  📍 Patiala, Punjab, India
 </p>
 
 ---
 
 ## 👩‍💻 About Me
 
-I'm a Computer Engineering student at **Thapar Institute of Engineering & Technology** with a passion for building products that solve real-world problems through **AI, browser technologies, and modern web development**.
+I'm a Computer Engineering student at **Thapar Institute of Engineering & Technology** building AI-powered products, full-stack systems, and developer tools.
 
-I enjoy designing systems that are fast, privacy-conscious, and intuitive—whether that's a Chrome extension running entirely on-device, an AI-powered analytics platform, or tools that improve developer productivity.
+I enjoy working across the stack — from designing backend systems and APIs to building intuitive frontend experiences and integrating AI into real products.
+
+My work spans **agentic AI, RAG, developer tools, browser-based AI, scalable backend systems, and system design**. I like understanding how systems work under the hood and then turning that understanding into something useful.
 
 ---
 
 ## 🚀 Currently Exploring
 
 * 🤖 Agentic AI & Retrieval-Augmented Generation (RAG)
-* 🌍 GIS Applications with OpenLayers
+* 🏗️ Backend Engineering & System Design
 * ⚡ Full Stack Development with React, Next.js & FastAPI
-* 🧠 Browser-based AI and Local Inference
-* 🏗️ Scalable Backend & System Design
+* 🛠️ Developer Tools & AI-powered developer workflows
+* 🧠 Browser-based AI & Local Inference
+* 🎙️ SpeechLLMs & Accent-Invariant Representation Learning
 
 ---
 
@@ -32,46 +39,97 @@ I enjoy designing systems that are fast, privacy-conscious, and intuitive—whet
 
 ## 🧠 Konta
 
-**A local-first Chrome extension that transforms browsing history into a searchable personal knowledge base.**
+**A privacy-first, context-aware Chrome extension that transforms browsing activity into a personal knowledge layer.**
 
-* On-device semantic embeddings
-* Multi-stage retrieval pipeline
-* Knowledge graph construction
-* Context-aware session detection
-* Privacy-first architecture with zero cloud dependency
+* On-device semantic embeddings using Transformers.js
+* Multi-stage semantic and keyword retrieval
+* Interactive 2D knowledge graph
+* Context-aware sessions and project organization
+* Browser-based local inference using ONNX Runtime Web
+* Privacy-focused architecture with local processing
 
 **Tech Stack**
 
-`TypeScript` • `React` • `Chrome Extension API` • `IndexedDB` • `Transformers.js` • `ONNX`
+`TypeScript` • `React` • `Chrome MV3` • `Plasmo` • `Transformers.js` • `ONNX Runtime Web` • `d3-force`
 
 ---
 
 ## 📊 GINA
 
-**A natural language analytics platform that converts business questions into SQL using an intelligent multi-model pipeline.**
+**A conversational analytics platform that converts natural-language business questions into grounded SQL insights.**
 
 * Natural Language → SQL
-* Context-aware conversations
-* Server-Sent Events streaming
-* Fast-path routing
-* PostgreSQL analytics
-* Multi-turn query understanding
+* Schema-aware retrieval using embeddings and pgvector
+* SQL AST validation and table whitelisting
+* Server-Sent Events for streaming query progress
+* Multi-turn conversational context
+* PostgreSQL-backed analytics with caching and LLM fallback
 
 **Tech Stack**
 
-`Next.js` • `TypeScript` • `Fastify` • `PostgreSQL` • `Supabase`
+`Next.js` • `TypeScript` • `Fastify` • `PostgreSQL` • `pgvector` • `Supabase` • `SSE`
 
 ---
 
-## 🚀 FlowSync
+## 🧠 FlowSync
 
-**An AI-powered project memory system that gives coding agents long-term contextual understanding of software projects.**
+**An AI-native project memory system that gives developers and coding agents persistent contextual understanding of software projects.**
 
-* Semantic project indexing
-* Context retrieval
-* Incremental knowledge updates
-* AI-assisted code understanding
-* Developer productivity workflows
+* Captures Git activity and developer context
+* Semantic project indexing and context retrieval
+* AI-powered event enrichment using Amazon Bedrock
+* REST APIs and serverless backend architecture
+* DynamoDB-based project and event persistence
+* VS Code extension + MCP integration
+* ~**1.26s median** query latency
+
+**Tech Stack**
+
+`TypeScript` • `Python` • `AWS Lambda` • `API Gateway` • `DynamoDB` • `S3` • `Amazon Bedrock` • `Next.js` • `MCP`
+
+---
+
+## 🦺 SOP Opera
+
+**An agentic industrial safety intelligence platform designed to help supervisors identify compound operational risks before authorizing high-risk work.**
+
+* Agentic operational review workflow
+* Deterministic hazard and compound-risk detection
+* SOP deviation and regulatory analysis
+* Human-in-the-loop safety decisions
+* Risk-based action tiers and reversibility controls
+* Evidence-backed audit trails
+
+**Tech Stack**
+
+`LangGraph` • `LLMs` • `RAG` • `Hybrid Retrieval` • `Agentic AI` • `Risk Policy` • `Audit Systems`
+
+---
+
+# 🔬 Research
+
+## Samsung PRISM — Accent-Invariant Representation Learning for SpeechLLM
+
+Currently working on **Worklet 26LAI11**, focused on improving SpeechLLM robustness across accented English.
+
+* Evaluated **Whisper Large-v3** and **NVIDIA Canary-1b**
+* Established ASR baselines across six L2-ARCTIC accent groups
+* Analyzed speaker-level and accent-level WER variation
+* Investigated shared model failure patterns
+* Exploring **LoRA-based parameter-efficient adaptation**
+
+**Research Areas**
+
+`SpeechLLMs` • `ASR` • `LoRA` • `PEFT` • `WER Analysis` • `Representation Learning`
+
+---
+
+# 🏆 Achievements
+
+* 🥇 **Winner — Economic Times GenAI Hackathon 2.0**, 2026
+* 🥇 **Winner — Samsung PRISM Web Agent Hackathon**, 2026
+* 🏆 **Innovation Award — Agentic AI Hackathon, Ulster University, UK**, 2025
+* ☁️ **4 Oracle AI Certifications**
 
 ---
 
@@ -83,27 +141,31 @@ I enjoy designing systems that are fast, privacy-conscious, and intuitive—whet
 
 ### Frontend
 
-`React` • `Next.js` • `Tailwind CSS`
+`React` • `Next.js` • `Tailwind CSS` • `Shadcn/UI`
 
 ### Backend
 
-`Node.js` • `Express.js` • `FastAPI`
+`Node.js` • `Express.js` • `Fastify` • `FastAPI` • `REST APIs`
 
 ### Databases
 
-`PostgreSQL` • `MongoDB`
+`PostgreSQL` • `MySQL` • `Redis` • `DynamoDB` • `MongoDB`
 
 ### AI / ML
 
-`LLMs` • `RAG` • `FAISS` • `Transformers.js` • `ONNX`
+`LLMs` • `RAG` • `Semantic Search` • `Embeddings` • `FAISS` • `Transformers.js` • `ONNX` • `Amazon Bedrock`
 
-### Tools
+### Cloud & Infrastructure
 
-`Git` • `Docker` • `Supabase` • `GitHub Actions` • `Figma`
+`AWS` • `EC2` • `Lambda` • `API Gateway` • `S3` • `Docker`
+
+### Developer Tools
+
+`Git` • `GitHub` • `MCP` • `VS Code Extensions` • `GitHub Actions`
 
 ---
 
-## 📈 GitHub Stats
+# 📈 GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=anoushkawasthi&show_icons=true&hide_border=true&theme=transparent" height="170"/>
@@ -116,9 +178,21 @@ I enjoy designing systems that are fast, privacy-conscious, and intuitive—whet
 
 ---
 
+# 📊 A Few Numbers
+
+<p align="center">
+  <b>8.78</b> CGPA &nbsp; • &nbsp;
+  <b>4</b> Major Projects &nbsp; • &nbsp;
+  <b>3</b> Hackathon Wins/Awards &nbsp; • &nbsp;
+  <b>4</b> Oracle AI Certifications
+</p>
+
+---
+
 ## 🌐 Connect With Me
 
 <p align="center">
+
   <a href="https://portfolio-anoushka-kappa.vercel.app/">
     <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
   </a>
@@ -134,6 +208,11 @@ I enjoy designing systems that are fast, privacy-conscious, and intuitive—whet
   <a href="mailto:awasthinush2580@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
+
+  <a href="https://drive.google.com/file/d/1_3knpGNAEiLA3XRuF92XxABXa4mKKZun/view?usp=sharing">
+    <img src="https://img.shields.io/badge/Resume-4285F4?style=for-the-badge&logo=googledrive&logoColor=white"/>
+  </a>
+
 </p>
 
 ---
