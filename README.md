@@ -167,13 +167,19 @@ Currently working on **Worklet 26LAI11**, focused on improving SpeechLLM robustn
 
 # 📈 GitHub Stats
 
+## 📊 GitHub
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=anoushkawasthi&show_icons=true&hide_border=true&theme=transparent" height="170"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anoushkawasthi&layout=compact&hide_border=true&theme=transparent" height="170"/>
+
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anoushkawasthi&theme=github_dark" />
+
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=anoushkawasthi&theme=github-compact"/>
+
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=anoushkawasthi&theme=github_dark" height="180"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=anoushkawasthi&theme=github_dark" height="180"/>
+
 </p>
 
 ---
