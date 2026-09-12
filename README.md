@@ -265,9 +265,6 @@ systems, map interactions and spatial visualization.
 
 <br>
 
-`60,000+` participants   ·  
-`10,000+` teams   ·  
-`28` finalists
 
 </div>
 
