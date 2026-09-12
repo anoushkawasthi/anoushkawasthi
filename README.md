@@ -1,349 +1,360 @@
 <div align="center">
 
-# ANOUSHKA
+<br>
 
-### AI · SYSTEMS · SOFTWARE
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,40:17114a,70:312e81,100:7c3aed&height=220&section=header&text=ANOUSHKA&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20%7C%20SYSTEMS%20%7C%20SOFTWARE&descAlignY=58&descSize=18&descColor=c4b5fd"/>
 
-**building things beneath the surface.**
+### a little bit of code, a little bit of chaos, mostly curiosity.
 
 <br>
 
-[ portfolio ](https://www.ikyano.tech/) ·
-[ github ](https://github.com/anoushkawasthi) ·
-[ linkedin ](https://www.linkedin.com/in/anoushka-awasthi-a87754247/) ·
-[ email ](mailto:awasthinush2580@gmail.com)
+[ **website** ](https://www.ikyano.tech/)
+  ·  
+[ **linkedin** ](https://www.linkedin.com/in/anoushka-awasthi-a87754247/)
+  ·  
+[ **github** ](https://github.com/anoushkawasthi)
 
 <br>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,50:312e81,100:7c3aed&height=180&section=header&text=&fontSize=0" width="100%"/>
 
 </div>
 
 ---
 
-## 01 — THE SURFACE
+<div align="center">
 
-I'm Anoushka, a Computer Engineering student at **Thapar Institute of Engineering & Technology**.
+### `somewhere between an idea and a working system`
 
-I build software somewhere between **AI, backend systems, developer tools and products**.
+</div>
 
-Most of my work starts with a simple question:
+I build things I find interesting.
 
-> *what happens if we take this idea a little further?*
+Sometimes that's an **AI agent** making safety decisions.
 
-That usually ends with a prototype, an unnecessarily interesting architecture,
-a hackathon deadline, and something that actually works.
+Sometimes it's a **coding agent that remembers**.
 
-I'm particularly interested in the parts of software that aren't immediately
-visible from the surface:
+Sometimes it's a **Chrome extension that understands what you're browsing**.
 
-**retrieval pipelines · agentic workflows · distributed backends ·
-local inference · context systems · model adaptation**
+Sometimes it's a **map with far too many layers**.
 
-I like understanding how things work underneath and then turning that
-understanding into something people can actually use.
+And sometimes it's a SpeechLLM that absolutely refuses to understand an accent.
+
+I'm interested in the stuff underneath the interface:
+
+**AI systems · backend architecture · retrieval · developer tools · local inference · distributed systems**
+
+I learn best by building, breaking, and rebuilding.
 
 ---
 
-## 02 — CURRENTLY BELOW THE SURFACE
+<div align="center">
 
 ```text
-AI
-├── Agentic systems
-├── RAG & semantic retrieval
-├── SpeechLLMs
-└── Parameter-efficient adaptation
-
-SYSTEMS
-├── Backend architecture
-├── Event-driven systems
-├── Caching & queues
-└── Distributed workflows
-
-BUILDING
-├── Developer tools
-├── AI-native products
-├── Browser-based AI
-└── Geospatial applications
+              .  *       .       *
+        *          .   ~       .
+             .        ~~~
+       .          ~~~~~~~~~
+            ~~~~~~~~~~~~~~~~~
+          ~~~~~~~~~~~~~~~~~~~~~
+         ~~~~~~~  ◉   ◉  ~~~~~~~
+          ~~~~~~~~~~~~~~~~~~~~~
+            ~~~~~~~~~~~~~~~~~
+                ~~~~~~~
+                  ~~~
+                   |
+                   |
+                 code
 ```
 
----
+*welcome to the deep end.*
 
-# 03 — THINGS I'VE BUILT
-
-### SOP Opera
-`agentic safety intelligence`
-
-A system for identifying compound industrial risks that conventional
-single-sensor thresholds can miss.
-
-**The interesting part**
-
-- compound risk detection across gas sensors, work permits, isolation state and worker location
-- false negatives reduced from **44.5% → 0% across 593 labeled cases**
-- hazards detected up to **28 minutes earlier**
-- LangGraph multi-agent orchestration
-- hybrid `pgvector + SQL` regulatory retrieval
-- durable PostgreSQL job queue
-- non-blocking WebSocket layer with backpressure
-- hash-chained, tamper-evident audit trail
-
-`Python` `TypeScript` `FastAPI` `LangGraph` `PostgreSQL` `pgvector` `Next.js` `Docker`
-
-**1st Place — Economic Times AI Hackathon 2.0**
+</div>
 
 ---
 
-### FlowSync
-`memory for coding agents`
+## currently building
 
-Coding agents are powerful.
+<table>
+<tr>
+<td width="50%">
 
-Their memory isn't.
+### 🪼 AI
 
-FlowSync gives coding agents persistent project context by turning Git
-activity into searchable project memory.
+`Agentic AI`
+`RAG`
+`Semantic Search`
+`Embeddings`
+`SpeechLLMs`
+`LoRA / PEFT`
 
-- extracts decisions, risks and tasks from Git diffs
-- AI enrichment using Amazon Bedrock
-- branch-aware RAG
-- VS Code extension
-- MCP server
-- DynamoDB-backed caching
-- event-driven AWS architecture
+</td>
 
-**1.26s median push-to-search latency**  
-**1.60s p95**
+<td width="50%">
 
-`TypeScript` `Python` `AWS` `Bedrock` `Lambda` `DynamoDB` `S3` `MCP` `Next.js`
+### ⚙ systems
+
+`Backend Architecture`
+`Event Driven Systems`
+`Caching`
+`Queues`
+`MCP`
+`Cloud Infrastructure`
+
+</td>
+</tr>
+</table>
 
 ---
 
-### Konta
-`a local-first memory layer for the browser`
+# things I've made
 
-Your browser sees everything.
+### `SOP Opera`
 
-Konta tries to make that context useful without sending it away.
+**industrial safety intelligence**
 
-A Chrome extension that transforms browsing activity into a private,
-searchable knowledge layer.
+A multi-agent system designed to catch compound operational risks before
+high-risk work gets approved.
 
-- on-device semantic embeddings
-- browser-based local inference
-- semantic, temporal and contextual knowledge graph
-- session boundary detection
-- local-first architecture
-- private, low-latency search
+The fun part wasn't making an LLM answer questions.
+
+It was making the system **reason over the situation**.
+
+* compound risk detection across multiple operational signals
+* false negatives: **44.5% → 0% across 593 labeled cases**
+* hazards detected up to **28 minutes earlier**
+* conditional LangGraph agent orchestration
+* hybrid PostgreSQL + pgvector retrieval
+* durable job queue
+* WebSocket streaming with backpressure
+* tamper-evident audit trail
+
+`Python` `TypeScript` `FastAPI` `LangGraph` `PostgreSQL` `pgvector` `Next.js`
+
+**1st Place · Economic Times AI Hackathon 2.0**
+
+---
+
+### `FlowSync`
+
+**memory for coding agents**
+
+Coding agents can write code.
+
+They aren't particularly good at remembering *why* that code exists.
+
+FlowSync turns project activity into persistent, searchable memory.
+
+```text
+git diff
+   ↓
+Bedrock
+   ↓
+events + decisions + risks + tasks
+   ↓
+branch-aware retrieval
+   ↓
+coding agent
+```
+
+Built with:
+
+`AWS` `Bedrock` `Lambda` `DynamoDB` `S3` `MCP` `Next.js`
+
+**1.26s median push → search latency**
+
+---
+
+### `Konta`
+
+**your browser remembers. locally.**
+
+A local-first Chrome extension that turns browsing history into a
+private knowledge layer.
+
+No giant cloud brain required.
+
+* on-device semantic embeddings
+* local browser inference
+* contextual knowledge graph
+* semantic + temporal relationships
+* intelligent session boundaries
+* private low-latency search
 
 `TypeScript` `React` `IndexedDB` `Transformers.js` `ONNX`
 
-**Winner — Samsung PRISM Web Agent Hackathon**
+**Winner · Samsung PRISM Web Agent Hackathon**
 
 ---
 
-### GINA
-`natural language → grounded analytics`
+### `GINA`
 
-Ask a business question in plain English.
+**ask questions. get grounded data.**
 
-GINA turns it into a grounded SQL query, executes it, and streams
-the answer back conversationally.
+A conversational analytics system that translates natural language
+into SQL and streams the results back.
 
-- multi-model Natural Language → SQL pipeline
-- structured outputs
-- semantic schema correction
-- multi-turn query context
-- SSE streaming
-- snapshot and cache restoration
-- failure-tolerant API layer
+```text
+"why did revenue drop?"
+          ↓
+      retrieval
+          ↓
+      SQL generation
+          ↓
+       validation
+          ↓
+      PostgreSQL
+          ↓
+       streamed
+        insight
+```
 
 `Next.js` `TypeScript` `Fastify` `PostgreSQL` `Supabase` `SSE`
 
 ---
 
-# 04 — RESEARCH DEEP DIVE
+# research corner
 
-## Samsung PRISM
-### Accent-Invariant Representation Learning for SpeechLLMs
+### Samsung PRISM · Accent Invariant Representation Learning for SpeechLLMs
 
-Currently working on **Worklet 26LAI11**, researching parameter-efficient
-adaptation for accented speech with the goal of improving SpeechLLM
-robustness without full model retraining.
+Currently researching how SpeechLLMs can become more robust to accented
+English without retraining the entire model.
 
-### Current directions
+Working with:
 
-```text
-LoRA adaptation
-       ↓
-MoE dynamic adapter routing
-       ↓
-accent-aware front-end encoders
-       ↓
-speaker / accent failure analysis
-       ↓
-robust SpeechLLM inference
-```
+`SALM` `Qwen Audio` `SALMONN` `PyTorch`
 
-Working with **SALM, Qwen Audio and SALMONN** while investigating
-accent-level and speaker-level failure patterns.
+Exploring:
 
-`PyTorch` `SpeechLLMs` `ASR` `LoRA` `MoE` `PEFT`
+**LoRA adaptation · MoE dynamic adapter routing · accent-aware encoders ·
+speaker-level failure analysis · accent-level failure analysis**
+
+The goal:
+
+> make speech models listen to the speaker, not the accent.
 
 ---
 
-# 05 — IN THE WILD
+# outside the terminal
 
 ### Samsung PRISM
+
 **Research Intern · Jul 2026 — Present**
 
-Researching parameter-efficient adaptation techniques for multilingual
-SpeechLLMs and accented speech.
-
----
+SpeechLLMs, accented speech and parameter-efficient adaptation.
 
 ### BharatRohan
+
 **Software Developer Intern · Jul 2026 — Aug 2026**
 
-Worked on production geospatial applications using **React.js and
-OpenLayers**, including vector and raster layers, projections,
-coordinate reference systems, map interactions and spatial visualization.
+Built production geospatial features with React and OpenLayers.
+
+Worked with vector and raster layers, projections, coordinate reference
+systems, map interactions and spatial visualization.
 
 ---
 
-# 06 — THINGS THAT HAPPENED
-
-```text
-┌─────────────────────────────────────────────────────────────┐
-│                                                             │
-│  01   ECONOMIC TIMES AI HACKATHON 2.0                       │
-│       1st Place                                             │
-│       60,000+ participants · 10,000+ teams · 28 finalists   │
-│                                                             │
-│  02   NIOHACK 2026                                         │
-│       Winner                                                │
-│       Niograph Inc. · USA                                  │
-│                                                             │
-│  03   SAMSUNG PRISM WEB AGENT HACKATHON                    │
-│       Winner                                                │
-│       450+ participants · 120+ teams                        │
-│                                                             │
-│  04   AGENTIC AI HACKATHON 2025                            │
-│       Innovation Award                                     │
-│       Ulster University · UK                               │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
-```
-
----
-
-# 07 — THE TOOLBOX
-
-### Languages
-
-`Python` `TypeScript` `JavaScript` `C++`
-
-### Frontend
-
-`React` `Next.js` `Tailwind`
-
-### Backend
-
-`FastAPI` `Fastify` `Node.js` `Express`
-
-### Data
-
-`PostgreSQL` `MySQL` `Redis` `DynamoDB`
-
-### AI / ML
-
-`LLMs` `RAG` `Embeddings` `Semantic Search`
-`SpeechLLMs` `Transformers.js` `ONNX`
-
-### Cloud
-
-`AWS` `Lambda` `EC2` `API Gateway` `S3` `Docker`
-
-### Developer Infrastructure
-
-`Git` `GitHub Actions` `MCP` `VS Code Extensions`
-
-### Geospatial
-
-`OpenLayers` `Spatial Data` `Coordinate Systems`
-
----
-
-# 08 — SIGNAL
+# trophies from the abyss
 
 <div align="center">
 
-<img
-  src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anoushkawasthi&theme=github_dark"
-  width="90%"
-/>
+|                      |                                          |
+| -------------------- | ---------------------------------------- |
+| **1st Place**        | Economic Times AI Hackathon 2.0          |
+| **Winner**           | NioHack 2026 · Niograph Inc.             |
+| **Winner**           | Samsung PRISM Web Agent Hackathon        |
+| **Innovation Award** | Agentic AI Hackathon · Ulster University |
 
-<br><br>
+<br>
 
-<img
-  src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=anoushkawasthi&theme=github_dark"
-  height="170"
-/>
-
-&nbsp;&nbsp;
-
-<img
-  src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=anoushkawasthi&theme=github_dark"
-  height="170"
-/>
+`60,000+` participants   ·  
+`10,000+` teams   ·  
+`28` finalists
 
 </div>
 
 ---
 
-# 09 — EDUCATION
-
-**Thapar Institute of Engineering & Technology**
-
-B.E. Computer Engineering · 2023 — Present
-
-**CGPA — 8.78**
-
-Class XII · CISCE · **96.5%**
-
----
-
-# 10 — FIND ME
+# my current spellbook
 
 <div align="center">
 
-## [ IKYANO.TECH ](https://www.ikyano.tech/)
+### languages
 
-*the nicer version of this page.*
+`Python` `TypeScript` `JavaScript` `C++`
+
+### build
+
+`React` `Next.js` `FastAPI` `Fastify` `Node.js`
+
+### think
+
+`LLMs` `RAG` `Embeddings` `Semantic Search` `SpeechLLMs`
+
+### store
+
+`PostgreSQL` `MySQL` `Redis` `DynamoDB`
+
+### deploy
+
+`AWS` `Lambda` `EC2` `S3` `API Gateway` `Docker`
+
+### tinker
+
+`MCP` `VS Code Extensions` `Git` `GitHub Actions` `OpenLayers`
+
+</div>
+
+---
+
+<div align="center">
+
+## github, but make it statistics
 
 <br>
 
-[ GitHub ](https://github.com/anoushkawasthi)
-&nbsp; · &nbsp;
-[ LinkedIn ](https://www.linkedin.com/in/anoushka-awasthi-a87754247/)
-&nbsp; · &nbsp;
-[ Email ](mailto:awasthinush2580@gmail.com)
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anoushkawasthi&theme=github_dark" width="90%"/>
 
 <br><br>
 
-<img
-  src="https://komarev.com/ghpvc/?username=anoushkawasthi&style=flat-square"
-/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=anoushkawasthi&theme=github_dark" height="170"/>
 
-<br><br>
+   
 
-### *stay curious. build weird things.*
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=anoushkawasthi&theme=github_dark" height="170"/>
+
+</div>
+
+---
+
+<div align="center">
 
 <br>
 
-<img
-  src="https://capsule-render.vercel.app/api?type=waving&color=0:7c3aed,50:312e81,100:020617&height=120&section=footer&text=&fontSize=0"
-  width="100%"
-/>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:020617,50:312e81,100:7c3aed&height=100&section=header&text=ikyano.tech&fontSize=32&fontColor=ffffff&animation=fadeIn"/>
+
+### [ enter the other side → ](https://www.ikyano.tech/)
+
+<br>
+
+**Patiala, India · 8.78 CGPA · probably building something**
+
+<br>
+
+[ github ](https://github.com/anoushkawasthi)
+  ·  
+[ linkedin ](https://www.linkedin.com/in/anoushka-awasthi-a87754247/)
+  ·  
+[ email ](mailto:awasthinush2580@gmail.com)
+
+<br><br>
+
+<sub>made with curiosity, caffeine, and questionable amounts of debugging.</sub>
+
+<br><br>
+
+<img src="https://komarev.com/ghpvc/?username=anoushkawasthi&style=flat-square"/>
+
+<br><br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7c3aed,50:312e81,100:020617&height=120&section=footer"/>
 
 </div>
