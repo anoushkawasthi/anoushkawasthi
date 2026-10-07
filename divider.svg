@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 18" width="1000" height="18" role="presentation" aria-label="">
+  <defs>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#2DD4BF" stop-opacity="0"/>
+      <stop offset="18%"  stop-color="#2DD4BF" stop-opacity="0.45"/>
+      <stop offset="50%"  stop-color="#38BDF8" stop-opacity="0.30"/>
+      <stop offset="82%"  stop-color="#2DD4BF" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#2DD4BF" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glint" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#FFB84D" stop-opacity="0.95"/>
+      <stop offset="35%"  stop-color="#5EEAD4" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#5EEAD4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="8" width="1000" height="1.6" fill="url(#line)"/>
+
+  <ellipse cx="0" cy="8.8" rx="90" ry="7" fill="url(#glint)">
+    <animate attributeName="cx" values="-100;1100" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.88;1" dur="7s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <circle cx="500" cy="8.8" r="2.2" fill="#2DD4BF">
+    <animate attributeName="opacity" values="0.25;0.9;0.25" dur="3.4s" repeatCount="indefinite"/>
+  </circle>
+</svg>

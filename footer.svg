@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 190" width="1000" height="190" role="img" aria-label="welcome to the deep end — ikyano.tech">
+  <defs>
+    <linearGradient id="fBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#0B2434"/>
+      <stop offset="55%"  stop-color="#071525"/>
+      <stop offset="100%" stop-color="#04070D"/>
+    </linearGradient>
+    <linearGradient id="waveA" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#2DD4BF" stop-opacity="0.22"/>
+      <stop offset="50%"  stop-color="#38BDF8" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#2DD4BF" stop-opacity="0.22"/>
+    </linearGradient>
+    <linearGradient id="waveB" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#0E7490" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#155E75" stop-opacity="0.18"/>
+    </linearGradient>
+    <linearGradient id="deepText" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#5EEAD4"/>
+      <stop offset="50%"  stop-color="#7DD3FC"/>
+      <stop offset="100%" stop-color="#5EEAD4"/>
+      <animateTransform attributeName="gradientTransform" type="translate"
+        values="-0.5 0; 0.5 0; -0.5 0" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <clipPath id="fCard"><rect width="1000" height="190" rx="16"/></clipPath>
+    <style>
+      @keyframes drift { 0%,100% { transform: translate(0,0); } 50% { transform: translate(10px,-8px); } }
+      @keyframes sink  { 0% { transform: translateY(-20px); opacity:0; } 20% { opacity:.7; } 100% { transform: translateY(170px); opacity:0; } }
+      @keyframes shimmer { 0%,100% { opacity:.55; } 50% { opacity:1; } }
+      .j1 { animation: drift 9s ease-in-out infinite; }
+      .j2 { animation: drift 11s ease-in-out infinite reverse; }
+      .fall { animation: sink linear infinite; }
+      .shim { animation: shimmer 5s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <g clip-path="url(#fCard)">
+    <rect width="1000" height="190" fill="url(#fBg)"/>
+
+    <path d="M0 48 Q 125 18 250 48 T 500 48 T 750 48 T 1000 48 L1000 0 L0 0 Z" fill="url(#waveB)"/>
+    <path d="M0 40 Q 125 72 250 40 T 500 40 T 750 40 T 1000 40 L1000 0 L0 0 Z" fill="url(#waveA)"/>
+
+    <g>
+      <circle class="fall" cx="110" cy="0" r="1.6" fill="#5EEAD4" style="animation-duration:12s;animation-delay:0s"/>
+      <circle class="fall" cx="300" cy="0" r="1.2" fill="#7DD3FC" style="animation-duration:15s;animation-delay:3s"/>
+      <circle class="fall" cx="640" cy="0" r="1.8" fill="#5EEAD4" style="animation-duration:13s;animation-delay:6s"/>
+      <circle class="fall" cx="860" cy="0" r="1.3" fill="#FFB84D" style="animation-duration:16s;animation-delay:1.5s"/>
+    </g>
+
+    <!-- small jellyfish, left -->
+    <g class="j1" opacity="0.6">
+      <path d="M118 116 q0-26 26-26 q26 0 26 26 q-13-5-26 0 q-13 5-26 0 Z" fill="#2DD4BF" fill-opacity="0.22" stroke="#5EEAD4" stroke-opacity="0.45" stroke-width="1"/>
+      <path d="M128 118 q-3 15 2 26 q4 10 -1 18" fill="none" stroke="#5EEAD4" stroke-opacity="0.35" stroke-width="1"/>
+      <path d="M144 120 q2 16 -2 28 q-3 10 2 16" fill="none" stroke="#7DD3FC" stroke-opacity="0.32" stroke-width="1"/>
+      <path d="M160 118 q-2 15 3 26 q4 10 -2 18" fill="none" stroke="#5EEAD4" stroke-opacity="0.35" stroke-width="1"/>
+    </g>
+
+    <!-- small jellyfish, right -->
+    <g class="j2" opacity="0.5">
+      <path d="M836 104 q0-21 21-21 q21 0 21 21 q-10-4-21 0 q-11 4-21 0 Z" fill="#38BDF8" fill-opacity="0.18" stroke="#7DD3FC" stroke-opacity="0.4" stroke-width="1"/>
+      <path d="M845 106 q-2 13 2 22 q3 8 -1 14" fill="none" stroke="#7DD3FC" stroke-opacity="0.3" stroke-width="1"/>
+      <path d="M858 108 q2 13 -2 23 q-2 8 2 13" fill="none" stroke="#5EEAD4" stroke-opacity="0.3" stroke-width="1"/>
+      <path d="M870 106 q-2 13 3 22 q3 8 -2 14" fill="none" stroke="#7DD3FC" stroke-opacity="0.3" stroke-width="1"/>
+    </g>
+
+    <text x="500" y="104" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif"
+          font-size="30" font-weight="700" letter-spacing="1.5" fill="url(#deepText)">welcome to the deep end</text>
+
+    <text class="shim" x="500" y="134" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+          font-size="11.5" letter-spacing="4.5" fill="#FFB84D" fill-opacity="0.85">IKYANO.TECH</text>
+
+    <text x="500" y="162" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+          font-size="11" letter-spacing="1.8" fill="#46607A">made with curiosity, caffeine, and questionable amounts of debugging</text>
+
+    <rect x="0.5" y="0.5" width="999" height="189" rx="16" fill="none" stroke="#2DD4BF" stroke-opacity="0.16"/>
+  </g>
+</svg>
