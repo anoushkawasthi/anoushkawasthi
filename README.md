@@ -1,302 +1,168 @@
 <div align="center">
 
-<br>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,45:1e1b4b,75:312e81,100:7c3aed&height=200&section=header&text=Anoushka%20Awasthi&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=AI%20Systems%20%C2%B7%20Backend%20Architecture%20%C2%B7%20Developer%20Tools&descAlignY=60&descSize=16&descColor=c4b5fd"/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,40:17114a,70:312e81,100:7c3aed&height=220&section=header&text=ANOUSHKA&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20%7C%20SYSTEMS%20%7C%20SOFTWARE&descAlignY=58&descSize=18&descColor=c4b5fd"/>
+<a href="https://www.ikyano.tech/"><img src="https://img.shields.io/badge/ikyano.tech-7c3aed?style=for-the-badge&logo=safari&logoColor=white&labelColor=020617"/></a>
+<a href="https://www.linkedin.com/in/anoushka-awasthi-a87754247/"><img src="https://img.shields.io/badge/LinkedIn-312e81?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=020617"/></a>
+<a href="https://github.com/anoushkawasthi"><img src="https://img.shields.io/badge/GitHub-1e1b4b?style=for-the-badge&logo=github&logoColor=white&labelColor=020617"/></a>
+<a href="mailto:awasthinush2580@gmail.com"><img src="https://img.shields.io/badge/Email-020617?style=for-the-badge&logo=gmail&logoColor=c4b5fd&labelColor=020617"/></a>
 
-### a little bit of code, a little bit of chaos, mostly curiosity.
+<br><br>
 
-<br>
+**Computer Engineering @ Thapar** · Patiala, India · Research Intern @ Samsung PRISM
 
-[ **website** ](https://www.ikyano.tech/)
-  ·  
-[ **linkedin** ](https://www.linkedin.com/in/anoushka-awasthi-a87754247/)
-  ·  
-[ **github** ](https://github.com/anoushkawasthi)
-
-<br>
+`somewhere between an idea and a working system`
 
 </div>
 
 ---
+
+## about
+
+I build systems that have to **reason**, not just respond.
+
+Most of my work lives one layer below the interface — multi-agent orchestration, retrieval that actually retrieves, event-driven backends, local inference, and the unglamorous plumbing that keeps all of it from falling over: job queues, backpressure, caching, audit trails.
+
+Currently researching **accent-invariant representation learning for SpeechLLMs** at Samsung PRISM, and building things that remember.
+
+I learn by building, breaking, and rebuilding.
+
+---
+
+## selected wins
 
 <div align="center">
 
-### `somewhere between an idea and a working system`
-
-</div>
-
-I build things I find interesting.
-
-Sometimes that's an **AI agent** making safety decisions.
-
-Sometimes it's a **coding agent that remembers**.
-
-Sometimes it's a **Chrome extension that understands what you're browsing**.
-
-Sometimes it's a **map with far too many layers**.
-
-And sometimes it's a SpeechLLM that absolutely refuses to understand an accent.
-
-I'm interested in the stuff underneath the interface:
-
-**AI systems · backend architecture · retrieval · developer tools · local inference · distributed systems**
-
-I learn best by building, breaking, and rebuilding.
-
----
-
-<div align="center">
-
-```text
-              .  *       .       *
-        *          .   ~       .
-             .        ~~~
-       .          ~~~~~~~~~
-            ~~~~~~~~~~~~~~~~~
-          ~~~~~~~~~~~~~~~~~~~~~
-         ~~~~~~~  ◉   ◉  ~~~~~~~
-          ~~~~~~~~~~~~~~~~~~~~~
-            ~~~~~~~~~~~~~~~~~
-                ~~~~~~~
-                  ~~~
-                   |
-                   |
-                 code
-```
-
-*welcome to the deep end.*
+| | | |
+|:--|:--|:--|
+| 🥇 **1st Place** | Economic Times AI Hackathon 2.0 | 60,000+ participants · 10,000+ teams · 28 finalists |
+| 🏆 **Winner** | NioHack 2026 — Niograph Inc., USA | Innovate, Build, Transform |
+| 🏆 **Winner** | Samsung PRISM Web Agent Hackathon | 450+ participants · 120+ teams |
+| ✨ **Innovation Award** | Agentic AI Hackathon — Ulster University, UK | 150+ teams |
 
 </div>
 
 ---
 
-## currently building
+## things I've built
 
-<table>
-<tr>
-<td width="50%">
+### `SOP Opera` — agentic industrial safety intelligence
 
-### 🪼 AI
+> **🥇 1st Place · Economic Times AI Hackathon 2.0**
 
-`Agentic AI`
-`RAG`
-`Semantic Search`
-`Embeddings`
-`SpeechLLMs`
-`LoRA / PEFT`
+A multi-agent system that catches **compound** operational risks before high-risk work gets approved. The hard part was never making an LLM answer questions — it was making the system reason over the whole situation at once: gas readings, work permits, isolation state, and worker location, together.
 
-</td>
+| metric | result |
+|:--|:--|
+| false negatives | **44.5% → 0%** across 593 labeled cases |
+| early detection | hazards surfaced **28 minutes** sooner |
 
-<td width="50%">
+- LangGraph pipeline with conditional agent fan-out for explainable safety decisions
+- Hybrid pgvector + SQL retrieval over a clause-level regulatory corpus
+- Durable PostgreSQL job queue and non-blocking WebSocket layer with per-client backpressure
+- Hash-chained, tamper-evident audit trail on every recorded decision
 
-### ⚙ systems
+`Python` `TypeScript` `FastAPI` `LangGraph` `PostgreSQL` `pgvector` `Next.js` `Docker`
 
-`Backend Architecture`
-`Event Driven Systems`
-`Caching`
-`Queues`
-`MCP`
-`Cloud Infrastructure`
-
-</td>
-</tr>
-</table>
+<a href="https://github.com/anoushkawasthi"><img src="https://img.shields.io/badge/repo-312e81?style=flat-square&logo=github&logoColor=white"/></a>
 
 ---
 
-# things I've made
+### `FlowSync` — memory for coding agents
 
-### `SOP Opera`
+Coding agents can write code. They're not good at remembering *why* that code exists. FlowSync turns project activity into persistent, searchable, branch-aware memory.
 
-**industrial safety intelligence**
-
-A multi-agent system designed to catch compound operational risks before
-high-risk work gets approved.
-
-The fun part wasn't making an LLM answer questions.
-
-It was making the system **reason over the situation**.
-
-* compound risk detection across multiple operational signals
-* false negatives: **44.5% → 0% across 593 labeled cases**
-* hazards detected up to **28 minutes earlier**
-* conditional LangGraph agent orchestration
-* hybrid PostgreSQL + pgvector retrieval
-* durable job queue
-* WebSocket streaming with backpressure
-* tamper-evident audit trail
-
-`Python` `TypeScript` `FastAPI` `LangGraph` `PostgreSQL` `pgvector` `Next.js`
-
-**1st Place · Economic Times AI Hackathon 2.0**
-
----
-
-### `FlowSync`
-
-**memory for coding agents**
-
-Coding agents can write code.
-
-They aren't particularly good at remembering *why* that code exists.
-
-FlowSync turns project activity into persistent, searchable memory.
-
-```text
-git diff
-   ↓
-Bedrock
-   ↓
-events + decisions + risks + tasks
-   ↓
-branch-aware retrieval
-   ↓
-coding agent
+```
+git diff → Bedrock → decisions · risks · tasks → branch-aware retrieval → your agent
 ```
 
-Built with:
+| metric | result |
+|:--|:--|
+| push → search latency | **1.26s median** (p95: 1.60s) |
 
-`AWS` `Bedrock` `Lambda` `DynamoDB` `S3` `MCP` `Next.js`
+- Event-driven extraction of decisions, risks, and tasks straight out of git diffs
+- VS Code extension + MCP server for context logging and project search
+- Branch-aware RAG with DynamoDB caching
 
-**1.26s median push → search latency**
+`TypeScript` `Python` `AWS Bedrock` `Lambda` `DynamoDB` `S3` `MCP` `Next.js`
+
+<a href="https://github.com/anoushkawasthi"><img src="https://img.shields.io/badge/repo-312e81?style=flat-square&logo=github&logoColor=white"/></a>
 
 ---
 
-### `Konta`
+### `Konta` — your browser remembers, locally
 
-**your browser remembers. locally.**
+> **🏆 Winner · Samsung PRISM Web Agent Hackathon**
 
-A local-first Chrome extension that turns browsing history into a
-private knowledge layer.
+A local-first Chrome extension that turns browsing activity into a private knowledge layer. No giant cloud brain required — the embeddings never leave the device.
 
-No giant cloud brain required.
-
-* on-device semantic embeddings
-* local browser inference
-* contextual knowledge graph
-* semantic + temporal relationships
-* intelligent session boundaries
-* private low-latency search
+- On-device semantic embeddings via Transformers.js + ONNX
+- Knowledge graph linking pages by semantic, temporal, and contextual relationships
+- Sessionization with context-boundary detection, so unrelated tasks don't bleed into each other
 
 `TypeScript` `React` `IndexedDB` `Transformers.js` `ONNX`
 
-**Winner · Samsung PRISM Web Agent Hackathon**
+<a href="https://github.com/anoushkawasthi"><img src="https://img.shields.io/badge/repo-312e81?style=flat-square&logo=github&logoColor=white"/></a>
 
 ---
 
-### `GINA`
+### `GINA` — ask questions, get grounded data
 
-**ask questions. get grounded data.**
+Conversational analytics that turns natural language into validated SQL and streams the answer back.
 
-A conversational analytics system that translates natural language
-into SQL and streams the results back.
-
-```text
-"why did revenue drop?"
-          ↓
-      retrieval
-          ↓
-      SQL generation
-          ↓
-       validation
-          ↓
-      PostgreSQL
-          ↓
-       streamed
-        insight
 ```
+"why did revenue drop?" → retrieval → SQL generation → validation → PostgreSQL → streamed insight
+```
+
+- Multi-model NL→SQL pipeline with structured outputs and grounded query generation
+- SSE streaming with fast-path routing over snapshots and cache restoration
+- Multi-turn state, semantic schema correction loops, failure-tolerant SSE error handling
 
 `Next.js` `TypeScript` `Fastify` `PostgreSQL` `Supabase` `SSE`
 
----
-
-# research corner
-
-### Samsung PRISM · Accent Invariant Representation Learning for SpeechLLMs
-
-Currently researching how SpeechLLMs can become more robust to accented
-English without retraining the entire model.
-
-Working with:
-
-`SALM` `Qwen Audio` `SALMONN` `PyTorch`
-
-Exploring:
-
-**LoRA adaptation · MoE dynamic adapter routing · accent-aware encoders ·
-speaker-level failure analysis · accent-level failure analysis**
-
-The goal:
-
-> make speech models listen to the speaker, not the accent.
+<a href="https://github.com/anoushkawasthi"><img src="https://img.shields.io/badge/repo-312e81?style=flat-square&logo=github&logoColor=white"/></a>
 
 ---
 
-# outside the terminal
+## research
 
-### Samsung PRISM
+### Accent-Invariant Representation Learning for SpeechLLMs · Samsung PRISM
 
-**Research Intern · Jul 2026 — Present**
+How do you make a SpeechLLM robust to accented English **without** retraining the whole model?
 
-SpeechLLMs, accented speech and parameter-efficient adaptation.
+- Parameter-efficient adaptation: LoRA adapters, MoE dynamic adapter routing, accent-aware front-end encoders
+- Benchmarking SALM, Qwen Audio, and SALMONN; speaker-level and accent-level failure analysis to find the weak accents worth adapting to
+- Targeting a peer-reviewed publication as the closure deliverable
 
-### BharatRohan
+`PyTorch` `SALM` `Qwen Audio` `SALMONN`
 
-**Software Developer Intern · Jul 2026 — Aug 2026**
-
-Built production geospatial features with React and OpenLayers.
-
-Worked with vector and raster layers, projections, coordinate reference
-systems, map interactions and spatial visualization.
+> the goal: make speech models listen to the speaker, not the accent.
 
 ---
 
-# trophies from the abyss
+## outside the terminal
+
+**Research Intern · Samsung PRISM** — *Sept 2026 – Present* · Remote
+SpeechLLMs, accented speech, and parameter-efficient adaptation.
+
+**Software Developer Intern · BharatRohan** — *Jul 2026 – Aug 2026* · Gurugram (Remote)
+Production geospatial features in React + OpenLayers — vector and raster layers, projections, coordinate reference systems, map interactions, spatial visualization.
+
+---
+
+## the spellbook
 
 <div align="center">
 
-|                      |                                          |
-| -------------------- | ---------------------------------------- |
-| **1st Place**        | Economic Times AI Hackathon 2.0          |
-| **Winner**           | NioHack 2026 · Niograph Inc.             |
-| **Winner**           | Samsung PRISM Web Agent Hackathon        |
-| **Innovation Award** | Agentic AI Hackathon · Ulster University |
-
+<img src="https://skillicons.dev/icons?i=python,ts,js,cpp,react,nextjs,nodejs,fastapi,pytorch&theme=dark" />
 <br>
+<img src="https://skillicons.dev/icons?i=postgres,mysql,redis,dynamodb,aws,docker,git,githubactions&theme=dark" />
 
+<br><br>
 
-</div>
+**thinking** `LLM APIs` `Agentic AI` `RAG` `Embeddings` `Semantic Search` `SpeechLLMs` `LoRA / PEFT` `MCP`
 
----
-
-# my current spellbook
-
-<div align="center">
-
-### languages
-
-`Python` `TypeScript` `JavaScript` `C++`
-
-### build
-
-`React` `Next.js` `FastAPI` `Fastify` `Node.js`
-
-### think
-
-`LLMs` `RAG` `Embeddings` `Semantic Search` `SpeechLLMs`
-
-### store
-
-`PostgreSQL` `MySQL` `Redis` `DynamoDB`
-
-### deploy
-
-`AWS` `Lambda` `EC2` `S3` `API Gateway` `Docker`
-
-### tinker
-
-`MCP` `VS Code Extensions` `Git` `GitHub Actions` `OpenLayers`
+**building** `Event-Driven Systems` `Caching` `Queues` `Backpressure` `Cloud Infrastructure` `VS Code Extensions`
 
 </div>
 
@@ -306,16 +172,11 @@ systems, map interactions and spatial visualization.
 
 ## github, but make it statistics
 
-<br>
-
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anoushkawasthi&theme=github_dark" width="90%"/>
 
 <br><br>
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=anoushkawasthi&theme=github_dark" height="170"/>
-
-   
-
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=anoushkawasthi&theme=github_dark" height="170"/>
 
 </div>
@@ -324,34 +185,28 @@ systems, map interactions and spatial visualization.
 
 <div align="center">
 
+```
+      ~~~~~~~~~~~~~~~
+    ~~~~~  ◉   ◉  ~~~~~
+      ~~~~~~~~~~~~~~~
+          ~~~~~~~
+            ~~~
+             |
+           code
+```
+
+**welcome to the deep end.**
+
 <br>
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:020617,50:312e81,100:7c3aed&height=100&section=header&text=ikyano.tech&fontSize=32&fontColor=ffffff&animation=fadeIn"/>
-
-### [ enter the other side → ](https://www.ikyano.tech/)
-
-<br>
+<a href="https://www.ikyano.tech/"><img src="https://capsule-render.vercel.app/api?type=soft&color=0:020617,50:312e81,100:7c3aed&height=90&section=header&text=ikyano.tech&fontSize=28&fontColor=ffffff&animation=fadeIn"/></a>
 
 **Patiala, India · 8.78 CGPA · probably building something**
 
-<br>
-
-[ github ](https://github.com/anoushkawasthi)
-  ·  
-[ linkedin ](https://www.linkedin.com/in/anoushka-awasthi-a87754247/)
-  ·  
-[ email ](mailto:awasthinush2580@gmail.com)
-
-<br><br>
-
 <sub>made with curiosity, caffeine, and questionable amounts of debugging.</sub>
 
-<br><br>
+<img src="https://komarev.com/ghpvc/?username=anoushkawasthi&style=flat-square&color=7c3aed"/>
 
-<img src="https://komarev.com/ghpvc/?username=anoushkawasthi&style=flat-square"/>
-
-<br><br>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7c3aed,50:312e81,100:020617&height=120&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7c3aed,50:312e81,100:020617&height=110&section=footer"/>
 
 </div>
