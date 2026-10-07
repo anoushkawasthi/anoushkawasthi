@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/hero.svg" width="100%" alt="Anoushka Awasthi — AI Systems · Backend Architecture · Developer Tools"/>
+<img src="./hero.svg" width="100%" alt="Anoushka Awasthi — AI Systems · Backend Architecture · Developer Tools"/>
 
 <br>
 
@@ -15,7 +15,7 @@
 
 <br>
 
-<img src="./assets/divider.svg" width="100%" alt=""/>
+<img src="./divider.svg" width="100%" alt=""/>
 
 </div>
 
@@ -59,15 +59,15 @@ Right now I'm researching **accent-invariant representation learning for SpeechL
 </tr>
 </table>
 
-<img src="./assets/divider.svg" width="100%" alt=""/>
+<img src="./divider.svg" width="100%" alt=""/>
 
 ## `02` &nbsp;impact
 
 <div align="center">
-<img src="./assets/metrics.svg" width="100%" alt="0% false negatives, down from 44.5% across 593 labeled cases · 28 minutes earlier hazard detection · 1.26s median push-to-search latency"/>
+<img src="./metrics.svg" width="100%" alt="0% false negatives, down from 44.5% across 593 labeled cases · 28 minutes earlier hazard detection · 1.26s median push-to-search latency"/>
 </div>
 
-<img src="./assets/divider.svg" width="100%" alt=""/>
+<img src="./divider.svg" width="100%" alt=""/>
 
 ## `03` &nbsp;selected work
 
@@ -161,7 +161,7 @@ Conversational analytics that turns natural language into *validated* SQL and st
 </td></tr>
 </table>
 
-<img src="./assets/divider.svg" width="100%" alt=""/>
+<img src="./divider.svg" width="100%" alt=""/>
 
 ## `04` &nbsp;research
 
@@ -185,7 +185,7 @@ Conversational analytics that turns natural language into *validated* SQL and st
 </td></tr>
 </table>
 
-<img src="./assets/divider.svg" width="100%" alt=""/>
+<img src="./divider.svg" width="100%" alt=""/>
 
 ## `05` &nbsp;trophy shelf
 
@@ -200,7 +200,7 @@ Conversational analytics that turns natural language into *validated* SQL and st
 
 </div>
 
-<img src="./assets/divider.svg" width="100%" alt=""/>
+<img src="./divider.svg" width="100%" alt=""/>
 
 ## `06` &nbsp;outside the terminal
 
@@ -225,7 +225,7 @@ Production geospatial features in React + OpenLayers — vector and raster layer
 </tr>
 </table>
 
-<img src="./assets/divider.svg" width="100%" alt=""/>
+<img src="./divider.svg" width="100%" alt=""/>
 
 ## `07` &nbsp;the spellbook
 
@@ -257,7 +257,7 @@ Production geospatial features in React + OpenLayers — vector and raster layer
 
 </div>
 
-<img src="./assets/divider.svg" width="100%" alt=""/>
+<img src="./divider.svg" width="100%" alt=""/>
 
 ## `08` &nbsp;github, but make it statistics
 
@@ -276,7 +276,7 @@ Production geospatial features in React + OpenLayers — vector and raster layer
 
 <div align="center">
 
-<img src="./assets/footer.svg" width="100%" alt="welcome to the deep end — ikyano.tech"/>
+<img src="./footer.svg" width="100%" alt="welcome to the deep end — ikyano.tech"/>
 
 <br>
 
