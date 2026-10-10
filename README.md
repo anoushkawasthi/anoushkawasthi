@@ -276,6 +276,6 @@ Production geospatial features in React + OpenLayers — vector and raster layer
 
 <br><br>
 
-<img src="https://komarev.com/ghpvc/?username=anoushkawasthi&style=flat-square&color=5EEAD4&labelColor=04070D&label=surfaced"/>
+<img src="https://komarev.com/ghpvc/?username=anoushkawasthi&style=flat-square&color=2DD4BF&label=surfaced"/>
 
 </div>
