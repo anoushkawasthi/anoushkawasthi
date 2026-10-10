@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 220" width="260" height="220" role="img" aria-label="Konta sticker: a browser window where pages connect into a constellation around a little house">
+  <defs>
+    <clipPath id="c"><rect x="4" y="4" width="244" height="204" rx="18"/></clipPath>
+  </defs>
+
+  <rect x="12" y="12" width="244" height="204" rx="18" fill="#7EE0B5" stroke="#241E4E" stroke-width="2.5"/>
+  <rect x="4" y="4" width="244" height="204" rx="18" fill="#FFF6EC"/>
+
+  <g clip-path="url(#c)">
+    <!-- browser window -->
+    <rect x="22" y="22" width="208" height="146" rx="12" fill="#FFFFFF" stroke="#241E4E" stroke-width="2.5"/>
+    <path d="M22 44 V34 a12 12 0 0 1 12 -12 H218 a12 12 0 0 1 12 12 V44 Z" fill="#B9A6FF" stroke="#241E4E" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="36" cy="33" r="4" fill="#FF6FB5" stroke="#241E4E" stroke-width="1.5"/>
+    <circle cx="50" cy="33" r="4" fill="#FFD45C" stroke="#241E4E" stroke-width="1.5"/>
+    <circle cx="64" cy="33" r="4" fill="#7EE0B5" stroke="#241E4E" stroke-width="1.5"/>
+    <rect x="80" y="27.5" width="138" height="11" rx="5.5" fill="#FFFFFF" stroke="#241E4E" stroke-width="1.5"/>
+    <text x="149" y="36" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="7.5" font-weight="600" fill="#241E4E">chrome://my-memories</text>
+
+    <!-- constellation edges drawing themselves -->
+    <g fill="none" stroke="#241E4E" stroke-width="2" stroke-linecap="round" stroke-dasharray="1" stroke-dashoffset="1">
+      <line x1="54" y1="68" x2="150" y2="62" pathLength="1"><animate attributeName="stroke-dashoffset" values="1;0;0;1" keyTimes="0;0.3;0.85;1" dur="6s" repeatCount="indefinite"/></line>
+      <line x1="150" y1="62" x2="198" y2="66" pathLength="1"><animate attributeName="stroke-dashoffset" values="1;0;0;1" keyTimes="0;0.3;0.85;1" dur="6s" begin="0.3s" repeatCount="indefinite"/></line>
+      <line x1="198" y1="66" x2="204" y2="118" pathLength="1"><animate attributeName="stroke-dashoffset" values="1;0;0;1" keyTimes="0;0.3;0.85;1" dur="6s" begin="0.6s" repeatCount="indefinite"/></line>
+      <line x1="204" y1="118" x2="168" y2="148" pathLength="1"><animate attributeName="stroke-dashoffset" values="1;0;0;1" keyTimes="0;0.3;0.85;1" dur="6s" begin="0.9s" repeatCount="indefinite"/></line>
+      <line x1="168" y1="148" x2="102" y2="152" pathLength="1"><animate attributeName="stroke-dashoffset" values="1;0;0;1" keyTimes="0;0.3;0.85;1" dur="6s" begin="1.2s" repeatCount="indefinite"/></line>
+      <line x1="102" y1="152" x2="52" y2="136" pathLength="1"><animate attributeName="stroke-dashoffset" values="1;0;0;1" keyTimes="0;0.3;0.85;1" dur="6s" begin="1.5s" repeatCount="indefinite"/></line>
+      <line x1="52" y1="136" x2="54" y2="68" pathLength="1"><animate attributeName="stroke-dashoffset" values="1;0;0;1" keyTimes="0;0.3;0.85;1" dur="6s" begin="1.8s" repeatCount="indefinite"/></line>
+      <line x1="54" y1="68" x2="126" y2="112" pathLength="1" stroke-opacity="0.5"><animate attributeName="stroke-dashoffset" values="1;0;0;1" keyTimes="0;0.3;0.85;1" dur="6s" begin="0.15s" repeatCount="indefinite"/></line>
+      <line x1="204" y1="118" x2="126" y2="112" pathLength="1" stroke-opacity="0.5"><animate attributeName="stroke-dashoffset" values="1;0;0;1" keyTimes="0;0.3;0.85;1" dur="6s" begin="0.75s" repeatCount="indefinite"/></line>
+      <line x1="102" y1="152" x2="126" y2="112" pathLength="1" stroke-opacity="0.5"><animate attributeName="stroke-dashoffset" values="1;0;0;1" keyTimes="0;0.3;0.85;1" dur="6s" begin="1.35s" repeatCount="indefinite"/></line>
+      <line x1="150" y1="62" x2="126" y2="112" pathLength="1" stroke-opacity="0.5"><animate attributeName="stroke-dashoffset" values="1;0;0;1" keyTimes="0;0.3;0.85;1" dur="6s" begin="0.45s" repeatCount="indefinite"/></line>
+    </g>
+
+    <!-- pages -->
+    <g stroke="#241E4E" stroke-width="2">
+      <circle cx="54" cy="68" r="6" fill="#5B7CFA"/>
+      <circle cx="150" cy="62" r="6" fill="#FF6FB5"/>
+      <circle cx="198" cy="66" r="6" fill="#FFD45C"/>
+      <circle cx="204" cy="118" r="6" fill="#7EE0B5"/>
+      <circle cx="168" cy="148" r="6" fill="#B9A6FF"/>
+      <circle cx="102" cy="152" r="6" fill="#5B7CFA"/>
+      <circle cx="52" cy="136" r="6" fill="#FF6FB5"/>
+    </g>
+
+    <!-- home (it all stays local) -->
+    <path d="M110 104 L126 88 L142 104 Z" fill="#FF6FB5" stroke="#241E4E" stroke-width="2" stroke-linejoin="round"/>
+    <rect x="113" y="102" width="26" height="20" fill="#FFD45C" stroke="#241E4E" stroke-width="2"/>
+    <rect x="122" y="110" width="8" height="12" fill="#241E4E"/>
+    <text x="126" y="83" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#FF6FB5">♥<animateTransform attributeName="transform" type="translate" values="0 0;0 -3;0 0" dur="1.6s" repeatCount="indefinite"/></text>
+  </g>
+
+  <text x="126" y="193" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="10" font-weight="700" letter-spacing="1" fill="#241E4E">NO.03 · A BROWSER THAT REMEMBERS</text>
+  <rect x="4" y="4" width="244" height="204" rx="18" fill="none" stroke="#241E4E" stroke-width="2.5"/>
+</svg>

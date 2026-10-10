@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 220" width="260" height="220" role="img" aria-label="Research sticker: a jellyfish in headphones listening to a dancing waveform">
+  <defs>
+    <clipPath id="c"><rect x="4" y="4" width="244" height="204" rx="18"/></clipPath>
+  </defs>
+
+  <rect x="12" y="12" width="244" height="204" rx="18" fill="#B9A6FF" stroke="#241E4E" stroke-width="2.5"/>
+  <rect x="4" y="4" width="244" height="204" rx="18" fill="#FFF6EC"/>
+
+  <g clip-path="url(#c)">
+    <!-- listening... -->
+    <g font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="10.5" font-weight="700" fill="#241E4E">
+      <text x="130" y="46">listening</text>
+      <text x="191" y="46">.<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.9;1" dur="2s" repeatCount="indefinite"/></text>
+      <text x="198" y="46">.<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.3;0.45;0.9;1" dur="2s" repeatCount="indefinite"/></text>
+      <text x="205" y="46">.<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.55;0.7;0.9;1" dur="2s" repeatCount="indefinite"/></text>
+    </g>
+
+    <!-- waveform -->
+    <g stroke-width="5" stroke-linecap="round">
+      <line x1="128" x2="128" y1="94" y2="106" stroke="#5B7CFA"><animate attributeName="y1" values="94;78;94" dur="1.3s" repeatCount="indefinite"/><animate attributeName="y2" values="106;122;106" dur="1.3s" repeatCount="indefinite"/></line>
+      <line x1="136" x2="136" y1="86" y2="114" stroke="#FF6FB5"><animate attributeName="y1" values="86;70;86" dur="1.6s" repeatCount="indefinite"/><animate attributeName="y2" values="114;130;114" dur="1.6s" repeatCount="indefinite"/></line>
+      <line x1="144" x2="144" y1="74" y2="126" stroke="#5B7CFA"><animate attributeName="y1" values="74;90;74" dur="1.2s" repeatCount="indefinite"/><animate attributeName="y2" values="126;110;126" dur="1.2s" repeatCount="indefinite"/></line>
+      <line x1="152" x2="152" y1="90" y2="110" stroke="#FF6FB5"><animate attributeName="y1" values="90;66;90" dur="1.7s" repeatCount="indefinite"/><animate attributeName="y2" values="110;134;110" dur="1.7s" repeatCount="indefinite"/></line>
+      <line x1="160" x2="160" y1="70" y2="130" stroke="#5B7CFA"><animate attributeName="y1" values="70;86;70" dur="1.4s" repeatCount="indefinite"/><animate attributeName="y2" values="130;114;130" dur="1.4s" repeatCount="indefinite"/></line>
+      <line x1="168" x2="168" y1="82" y2="118" stroke="#FF6FB5"><animate attributeName="y1" values="82;62;82" dur="1.5s" repeatCount="indefinite"/><animate attributeName="y2" values="118;138;118" dur="1.5s" repeatCount="indefinite"/></line>
+      <line x1="176" x2="176" y1="64" y2="136" stroke="#5B7CFA"><animate attributeName="y1" values="64;88;64" dur="1.25s" repeatCount="indefinite"/><animate attributeName="y2" values="136;112;136" dur="1.25s" repeatCount="indefinite"/></line>
+      <line x1="184" x2="184" y1="86" y2="114" stroke="#FF6FB5"><animate attributeName="y1" values="86;70;86" dur="1.65s" repeatCount="indefinite"/><animate attributeName="y2" values="114;130;114" dur="1.65s" repeatCount="indefinite"/></line>
+      <line x1="192" x2="192" y1="72" y2="128" stroke="#5B7CFA"><animate attributeName="y1" values="72;92;72" dur="1.35s" repeatCount="indefinite"/><animate attributeName="y2" values="128;108;128" dur="1.35s" repeatCount="indefinite"/></line>
+      <line x1="200" x2="200" y1="92" y2="108" stroke="#FF6FB5"><animate attributeName="y1" values="92;74;92" dur="1.55s" repeatCount="indefinite"/><animate attributeName="y2" values="108;126;108" dur="1.55s" repeatCount="indefinite"/></line>
+      <line x1="208" x2="208" y1="78" y2="122" stroke="#5B7CFA"><animate attributeName="y1" values="78;88;78" dur="1.2s" repeatCount="indefinite"/><animate attributeName="y2" values="122;112;122" dur="1.2s" repeatCount="indefinite"/></line>
+      <line x1="216" x2="216" y1="88" y2="112" stroke="#FF6FB5"><animate attributeName="y1" values="88;80;88" dur="1.45s" repeatCount="indefinite"/><animate attributeName="y2" values="112;120;112" dur="1.45s" repeatCount="indefinite"/></line>
+      <line x1="224" x2="224" y1="84" y2="116" stroke="#5B7CFA"><animate attributeName="y1" values="84;94;84" dur="1.6s" repeatCount="indefinite"/><animate attributeName="y2" values="116;106;116" dur="1.6s" repeatCount="indefinite"/></line>
+    </g>
+
+    <!-- jellyfish in headphones -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="3.4s" repeatCount="indefinite"/>
+      <g fill="none" stroke-linecap="round">
+        <path d="M50 108 q-6 10 0 20 q6 10 0 20" stroke="#241E4E" stroke-width="7"><animate attributeName="d" values="M50 108 q-6 10 0 20 q6 10 0 20;M50 108 q6 10 0 20 q-6 10 0 20;M50 108 q-6 10 0 20 q6 10 0 20" dur="2.2s" begin="0s" repeatCount="indefinite"/></path>
+        <path d="M50 108 q-6 10 0 20 q6 10 0 20" stroke="#FF6FB5" stroke-width="3.5"><animate attributeName="d" values="M50 108 q-6 10 0 20 q6 10 0 20;M50 108 q6 10 0 20 q-6 10 0 20;M50 108 q-6 10 0 20 q6 10 0 20" dur="2.2s" begin="0s" repeatCount="indefinite"/></path>
+        <path d="M62 108 q-6 10 0 20 q6 10 0 20" stroke="#241E4E" stroke-width="7"><animate attributeName="d" values="M62 108 q-6 10 0 20 q6 10 0 20;M62 108 q6 10 0 20 q-6 10 0 20;M62 108 q-6 10 0 20 q6 10 0 20" dur="2.2s" begin="-0.5s" repeatCount="indefinite"/></path>
+        <path d="M62 108 q-6 10 0 20 q6 10 0 20" stroke="#5B7CFA" stroke-width="3.5"><animate attributeName="d" values="M62 108 q-6 10 0 20 q6 10 0 20;M62 108 q6 10 0 20 q-6 10 0 20;M62 108 q-6 10 0 20 q6 10 0 20" dur="2.2s" begin="-0.5s" repeatCount="indefinite"/></path>
+        <path d="M78 108 q-6 10 0 20 q6 10 0 20" stroke="#241E4E" stroke-width="7"><animate attributeName="d" values="M78 108 q-6 10 0 20 q6 10 0 20;M78 108 q6 10 0 20 q-6 10 0 20;M78 108 q-6 10 0 20 q6 10 0 20" dur="2.2s" begin="-1.0s" repeatCount="indefinite"/></path>
+        <path d="M78 108 q-6 10 0 20 q6 10 0 20" stroke="#7EE0B5" stroke-width="3.5"><animate attributeName="d" values="M78 108 q-6 10 0 20 q6 10 0 20;M78 108 q6 10 0 20 q-6 10 0 20;M78 108 q-6 10 0 20 q6 10 0 20" dur="2.2s" begin="-1.0s" repeatCount="indefinite"/></path>
+        <path d="M90 108 q-6 10 0 20 q6 10 0 20" stroke="#241E4E" stroke-width="7"><animate attributeName="d" values="M90 108 q-6 10 0 20 q6 10 0 20;M90 108 q6 10 0 20 q-6 10 0 20;M90 108 q-6 10 0 20 q6 10 0 20" dur="2.2s" begin="-1.5s" repeatCount="indefinite"/></path>
+        <path d="M90 108 q-6 10 0 20 q6 10 0 20" stroke="#FFD45C" stroke-width="3.5"><animate attributeName="d" values="M90 108 q-6 10 0 20 q6 10 0 20;M90 108 q6 10 0 20 q-6 10 0 20;M90 108 q-6 10 0 20 q6 10 0 20" dur="2.2s" begin="-1.5s" repeatCount="indefinite"/></path>
+      </g>
+      <path d="M40 104 C40 70 100 70 100 104 Q92.5 111 85 104 Q77.5 111 70 104 Q62.5 111 55 104 Q47.5 111 40 104 Z" fill="#B9A6FF" stroke="#241E4E" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M54 88 Q56 80 64 77" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-opacity="0.85"/>
+      <path d="M42 92 C42 54 98 54 98 92" fill="none" stroke="#241E4E" stroke-width="4" stroke-linecap="round"/>
+      <rect x="33" y="84" width="13" height="20" rx="5" fill="#FF6FB5" stroke="#241E4E" stroke-width="2"/>
+      <rect x="94" y="84" width="13" height="20" rx="5" fill="#FF6FB5" stroke="#241E4E" stroke-width="2"/>
+      <path d="M56 94 q4 -4 8 0 M76 94 q4 -4 8 0" fill="none" stroke="#241E4E" stroke-width="2" stroke-linecap="round"/>
+      <ellipse cx="54" cy="100" rx="4" ry="2.3" fill="#FF6FB5"/>
+      <ellipse cx="86" cy="100" rx="4" ry="2.3" fill="#FF6FB5"/>
+      <path d="M66 100 q4 4 8 0" fill="none" stroke="#241E4E" stroke-width="2" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <text x="126" y="193" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="11" font-weight="700" letter-spacing="1.2" fill="#241E4E">NO.05 · LISTENING, PROPERLY</text>
+  <rect x="4" y="4" width="244" height="204" rx="18" fill="none" stroke="#241E4E" stroke-width="2.5"/>
+</svg>
