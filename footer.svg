@@ -1,76 +1,101 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 190" width="1000" height="190" role="img" aria-label="welcome to the deep end — ikyano.tech">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1012 300" width="1012" height="300" role="img" aria-label="A postcard from the deep end — thanks for swimming all the way down here. ikyano.tech">
   <defs>
-    <linearGradient id="fBg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%"   stop-color="#0B2434"/>
-      <stop offset="55%"  stop-color="#071525"/>
-      <stop offset="100%" stop-color="#04070D"/>
-    </linearGradient>
-    <linearGradient id="waveA" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%"   stop-color="#2DD4BF" stop-opacity="0.22"/>
-      <stop offset="50%"  stop-color="#38BDF8" stop-opacity="0.14"/>
-      <stop offset="100%" stop-color="#2DD4BF" stop-opacity="0.22"/>
-    </linearGradient>
-    <linearGradient id="waveB" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%"   stop-color="#0E7490" stop-opacity="0.30"/>
-      <stop offset="100%" stop-color="#155E75" stop-opacity="0.18"/>
-    </linearGradient>
-    <linearGradient id="deepText" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%"   stop-color="#5EEAD4"/>
-      <stop offset="50%"  stop-color="#7DD3FC"/>
-      <stop offset="100%" stop-color="#5EEAD4"/>
-      <animateTransform attributeName="gradientTransform" type="translate"
-        values="-0.5 0; 0.5 0; -0.5 0" dur="8s" repeatCount="indefinite"/>
-    </linearGradient>
-    <clipPath id="fCard"><rect width="1000" height="190" rx="16"/></clipPath>
+    <pattern id="airmail" width="36" height="36" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="36" height="36" fill="#FFF6EC"/>
+      <rect x="0" width="9" height="36" fill="#FF6FB5"/>
+      <rect x="18" width="9" height="36" fill="#5B7CFA"/>
+    </pattern>
+    <pattern id="paperDots" width="14" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="7" cy="7" r="1.2" fill="#241E4E" fill-opacity="0.06"/>
+    </pattern>
+    <clipPath id="card"><rect x="4" y="4" width="990" height="276" rx="18"/></clipPath>
+    <path id="pm" d="M -37,0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0"/>
+    <path id="spark" d="M0 -11 C1.5 -3 3 -1.5 11 0 C3 1.5 1.5 3 0 11 C-1.5 3 -3 1.5 -11 0 C-3 -1.5 -1.5 -3 0 -11 Z"/>
     <style>
-      @keyframes drift { 0%,100% { transform: translate(0,0); } 50% { transform: translate(10px,-8px); } }
-      @keyframes sink  { 0% { transform: translateY(-20px); opacity:0; } 20% { opacity:.7; } 100% { transform: translateY(170px); opacity:0; } }
-      @keyframes shimmer { 0%,100% { opacity:.55; } 50% { opacity:1; } }
-      .j1 { animation: drift 9s ease-in-out infinite; }
-      .j2 { animation: drift 11s ease-in-out infinite reverse; }
-      .fall { animation: sink linear infinite; }
-      .shim { animation: shimmer 5s ease-in-out infinite; }
+      @keyframes bubble { 0% { transform: translateY(0); opacity: 0; } 15% { opacity: .55; } 100% { transform: translateY(-230px); opacity: 0; } }
+      .b { animation: bubble linear infinite; }
+      @keyframes draw { from { stroke-dashoffset: 340; } to { stroke-dashoffset: 0; } }
+      .squig { stroke-dasharray: 340; animation: draw 1.4s cubic-bezier(.3,.8,.3,1) .3s both; }
     </style>
   </defs>
 
-  <g clip-path="url(#fCard)">
-    <rect width="1000" height="190" fill="url(#fBg)"/>
+  <rect x="16" y="16" width="990" height="276" rx="18" fill="#FF6FB5" stroke="#241E4E" stroke-width="3"/>
+  <rect x="4" y="4" width="990" height="276" rx="18" fill="#FFF6EC"/>
 
-    <path d="M0 48 Q 125 18 250 48 T 500 48 T 750 48 T 1000 48 L1000 0 L0 0 Z" fill="url(#waveB)"/>
-    <path d="M0 40 Q 125 72 250 40 T 500 40 T 750 40 T 1000 40 L1000 0 L0 0 Z" fill="url(#waveA)"/>
+  <g clip-path="url(#card)">
+    <rect x="4" y="4" width="990" height="276" fill="url(#paperDots)"/>
 
-    <g>
-      <circle class="fall" cx="110" cy="0" r="1.6" fill="#5EEAD4" style="animation-duration:12s;animation-delay:0s"/>
-      <circle class="fall" cx="300" cy="0" r="1.2" fill="#7DD3FC" style="animation-duration:15s;animation-delay:3s"/>
-      <circle class="fall" cx="640" cy="0" r="1.8" fill="#5EEAD4" style="animation-duration:13s;animation-delay:6s"/>
-      <circle class="fall" cx="860" cy="0" r="1.3" fill="#FFB84D" style="animation-duration:16s;animation-delay:1.5s"/>
+    <!-- drifting bubbles -->
+    <g fill="none" stroke="#5B7CFA" stroke-width="1.6">
+      <circle class="b" cx="320" cy="270" r="4" style="animation-duration:9s;animation-delay:0s"/>
+      <circle class="b" cx="480" cy="270" r="6" style="animation-duration:11s;animation-delay:3s"/>
+      <circle class="b" cx="560" cy="270" r="3" style="animation-duration:8s;animation-delay:5s"/>
+      <circle class="b" cx="720" cy="270" r="5" style="animation-duration:10s;animation-delay:1.5s"/>
+      <circle class="b" cx="960" cy="270" r="4" style="animation-duration:12s;animation-delay:6s"/>
     </g>
 
-    <!-- small jellyfish, left -->
-    <g class="j1" opacity="0.6">
-      <path d="M118 116 q0-26 26-26 q26 0 26 26 q-13-5-26 0 q-13 5-26 0 Z" fill="#2DD4BF" fill-opacity="0.22" stroke="#5EEAD4" stroke-opacity="0.45" stroke-width="1"/>
-      <path d="M128 118 q-3 15 2 26 q4 10 -1 18" fill="none" stroke="#5EEAD4" stroke-opacity="0.35" stroke-width="1"/>
-      <path d="M144 120 q2 16 -2 28 q-3 10 2 16" fill="none" stroke="#7DD3FC" stroke-opacity="0.32" stroke-width="1"/>
-      <path d="M160 118 q-2 15 3 26 q4 10 -2 18" fill="none" stroke="#5EEAD4" stroke-opacity="0.35" stroke-width="1"/>
+    <!-- airmail border -->
+    <rect x="14" y="14" width="970" height="256" rx="10" fill="none" stroke="url(#airmail)" stroke-width="10"/>
+
+    <!-- message side -->
+    <text x="56" y="80" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="30" fill="#241E4E">postcard from the deep end</text>
+    <path class="squig" d="M58 96 q12 -8 24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0" fill="none" stroke="#FF6FB5" stroke-width="4" stroke-linecap="round"/>
+
+    <g font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="17.5" fill="#241E4E" fill-opacity="0.85">
+      <text x="58" y="136">thanks for swimming all the way down here.</text>
+      <text x="58" y="164">if you're building something weird and wonderful,</text>
+      <text x="58" y="192">i'd love to hear about it.</text>
+    </g>
+    <text x="58" y="238" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="25" fill="#FF6FB5">— anoushka</text>
+    <g transform="translate(200 228)"><use xlink:href="#spark" fill="#FFD45C" stroke="#241E4E" stroke-width="2"><animateTransform attributeName="transform" type="scale" values="0.55;1;0.55" dur="2.4s" repeatCount="indefinite"/></use></g>
+
+    <line x1="592" y1="50" x2="592" y2="240" stroke="#241E4E" stroke-opacity="0.35" stroke-width="2" stroke-dasharray="6 6"/>
+
+    <!-- cancellation waves -->
+    <g fill="none" stroke="#241E4E" stroke-opacity="0.45" stroke-width="2" stroke-linecap="round">
+      <path d="M620 96 q8 -5 16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0"/>
+      <path d="M620 106 q8 -5 16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0"/>
+      <path d="M620 116 q8 -5 16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0"/>
+      <path d="M620 126 q8 -5 16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0"/>
     </g>
 
-    <!-- small jellyfish, right -->
-    <g class="j2" opacity="0.5">
-      <path d="M836 104 q0-21 21-21 q21 0 21 21 q-10-4-21 0 q-11 4-21 0 Z" fill="#38BDF8" fill-opacity="0.18" stroke="#7DD3FC" stroke-opacity="0.4" stroke-width="1"/>
-      <path d="M845 106 q-2 13 2 22 q3 8 -1 14" fill="none" stroke="#7DD3FC" stroke-opacity="0.3" stroke-width="1"/>
-      <path d="M858 108 q2 13 -2 23 q-2 8 2 13" fill="none" stroke="#5EEAD4" stroke-opacity="0.3" stroke-width="1"/>
-      <path d="M870 106 q-2 13 3 22 q3 8 -2 14" fill="none" stroke="#7DD3FC" stroke-opacity="0.3" stroke-width="1"/>
+    <!-- stamp -->
+    <g transform="translate(882 104) rotate(5)">
+      <rect x="-48" y="-56" width="100" height="116" fill="#241E4E"/>
+      <rect x="-52" y="-60" width="100" height="116" fill="#FFFFFF" stroke="#241E4E" stroke-width="2" stroke-dasharray="4 3"/>
+      <rect x="-42" y="-50" width="80" height="78" fill="#FFD45C" stroke="#241E4E" stroke-width="2"/>
+      <text x="-36" y="-37" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="9" font-weight="700" fill="#241E4E">₹∞</text>
+      <g transform="translate(-2 6)">
+        <animateTransform attributeName="transform" type="translate" values="-2 6;-2 1;-2 6" dur="3.6s" repeatCount="indefinite"/>
+        <g fill="none" stroke="#241E4E" stroke-width="2" stroke-linecap="round">
+          <path d="M-8 -9 q-3 5 0 10"/><path d="M0 -9 q3 5 0 10"/><path d="M8 -9 q-3 5 0 10"/>
+        </g>
+        <path d="M-16 -9 C-16 -30 16 -30 16 -9 Q12 -5 8 -9 Q4 -5 0 -9 Q-4 -5 -8 -9 Q-12 -5 -16 -9 Z" fill="#B9A6FF" stroke="#241E4E" stroke-width="2" stroke-linejoin="round"/>
+        <circle cx="-5" cy="-17" r="2" fill="#241E4E"/>
+        <circle cx="5" cy="-17" r="2" fill="#241E4E"/>
+        <ellipse cx="-10" cy="-13" rx="2.6" ry="1.5" fill="#FF6FB5"/>
+        <ellipse cx="10" cy="-13" rx="2.6" ry="1.5" fill="#FF6FB5"/>
+      </g>
+      <text x="-2" y="44" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="8" font-weight="700" letter-spacing="0.8" fill="#241E4E">DEEP SEA POST</text>
     </g>
 
-    <text x="500" y="104" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif"
-          font-size="30" font-weight="700" letter-spacing="1.5" fill="url(#deepText)">welcome to the deep end</text>
+    <!-- postmark, wobbling -->
+    <g transform="translate(790 112)">
+      <g opacity="0.6">
+        <animateTransform attributeName="transform" type="rotate" values="-10;6;-10" dur="7s" repeatCount="indefinite"/>
+        <circle r="44" fill="none" stroke="#241E4E" stroke-width="2"/>
+        <circle r="31" fill="none" stroke="#241E4E" stroke-width="1.5"/>
+        <text font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="7.5" font-weight="700" fill="#241E4E"><textPath xlink:href="#pm" textLength="226">PATIALA ✦ 2026 ✦ PATIALA ✦ 2026 ✦ </textPath></text>
+        <text y="4" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="10" font-weight="700" letter-spacing="1" fill="#241E4E">IKYANO</text>
+      </g>
+    </g>
 
-    <text class="shim" x="500" y="134" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
-          font-size="11.5" letter-spacing="4.5" fill="#FFB84D" fill-opacity="0.85">IKYANO.TECH</text>
-
-    <text x="500" y="162" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
-          font-size="11" letter-spacing="1.8" fill="#46607A">made with curiosity, caffeine, and questionable amounts of debugging</text>
-
-    <rect x="0.5" y="0.5" width="999" height="189" rx="16" fill="none" stroke="#2DD4BF" stroke-opacity="0.16"/>
+    <!-- address -->
+    <text x="624" y="204" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="18" fill="#241E4E">to: you, a curious visitor</text>
+    <line x1="620" y1="212" x2="960" y2="212" stroke="#241E4E" stroke-opacity="0.25" stroke-width="1.5"/>
+    <text x="624" y="236" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#241E4E" fill-opacity="0.8">ikyano.tech · github.com/anoushkawasthi</text>
+    <line x1="620" y1="244" x2="960" y2="244" stroke="#241E4E" stroke-opacity="0.25" stroke-width="1.5"/>
   </g>
+
+  <rect x="4" y="4" width="990" height="276" rx="18" fill="none" stroke="#241E4E" stroke-width="3"/>
 </svg>

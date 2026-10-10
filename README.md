@@ -1,266 +1,255 @@
 <div align="center">
 
-<img src="./hero.svg" width="100%" alt="Anoushka Awasthi — AI Systems · Backend Architecture · Developer Tools"/>
-
-<br>
-
-<a href="https://www.ikyano.tech/"><img src="https://img.shields.io/badge/ikyano.tech-071525?style=for-the-badge&logo=safari&logoColor=5EEAD4&labelColor=04070D"/></a>
-<a href="https://www.linkedin.com/in/anoushka-awasthi-a87754247/"><img src="https://img.shields.io/badge/LinkedIn-071525?style=for-the-badge&logo=linkedin&logoColor=5EEAD4&labelColor=04070D"/></a>
-<a href="https://github.com/anoushkawasthi"><img src="https://img.shields.io/badge/GitHub-071525?style=for-the-badge&logo=github&logoColor=5EEAD4&labelColor=04070D"/></a>
-<a href="mailto:awasthinush2580@gmail.com"><img src="https://img.shields.io/badge/Email-071525?style=for-the-badge&logo=maildotru&logoColor=5EEAD4&labelColor=04070D"/></a>
+<img src="./hero.svg" width="100%" alt="Anoushka Awasthi — a little bit of code, a little bit of chaos, mostly curiosity"/>
 
 <br><br>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=2600&pause=900&color=5EEAD4&center=true&vCenter=true&width=720&lines=somewhere+between+an+idea+and+a+working+system;multi-agent+systems+that+reason%2C+not+just+respond;retrieval+that+actually+retrieves;local-first+inference+%E2%80%94+no+giant+cloud+brain+required;I+learn+by+building%2C+breaking%2C+rebuilding" alt="rotating tagline"/>
+<a href="https://www.ikyano.tech/"><img src="https://img.shields.io/badge/ikyano.tech-FFD45C?style=for-the-badge&logo=googlechrome&logoColor=241E4E"/></a>
+<a href="https://www.linkedin.com/in/anoushka-awasthi-a87754247/"><img src="https://img.shields.io/badge/linkedin-5B7CFA?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="https://github.com/anoushkawasthi"><img src="https://img.shields.io/badge/github-241E4E?style=for-the-badge&logo=github&logoColor=FFF6EC"/></a>
+<a href="mailto:awasthinush2580@gmail.com"><img src="https://img.shields.io/badge/say_hi-FF6FB5?style=for-the-badge&logo=gmail&logoColor=241E4E"/></a>
 
-<br>
+<br><br>
+
+<img src="https://readme-typing-svg.demolab.com?font=Space+Mono&weight=700&size=16&duration=2800&pause=1000&color=FF6FB5&center=true&vCenter=true&width=640&lines=building+agents+that+think+%26+tools+that+remember;currently%3A+teaching+speech+models+about+accents;4+hackathon+wins%2C+1+jellyfish%2C+0+regrets;I+learn+by+building%2C+breaking%2C+rebuilding" alt="rotating notes"/>
 
 <img src="./divider.svg" width="100%" alt=""/>
 
 </div>
 
-## `01` &nbsp;about
+## ✿ hello, hello
 
 <table>
 <tr>
-<td width="62%" valign="top">
+<td width="60%" valign="top">
 
-I build systems that have to **reason**, not just respond.
+I build things I find interesting — and I find a *lot* of things interesting.
 
-Most of my work lives one layer below the interface — multi-agent orchestration, retrieval that actually retrieves, event-driven backends, on-device inference, and the unglamorous plumbing that keeps all of it standing up: durable job queues, backpressure, caching, tamper-evident audit trails.
+Sometimes that's an **AI agent making safety calls** on a factory floor. Sometimes it's a **coding agent that remembers why**. Sometimes it's a **browser that quietly takes notes**, a **map with far too many layers**, or a SpeechLLM that absolutely refuses to understand an accent (we're working on it).
 
-The interesting problems are rarely "can the model answer this." They're *can the system hold the whole situation in its head at once* — and can you prove afterwards why it decided what it decided.
+I like living underneath the interface: agents, retrieval, event-driven backends, local inference, and the plumbing that keeps it all from falling over.
 
-Right now I'm researching **accent-invariant representation learning for SpeechLLMs** at Samsung PRISM, and building tools that remember.
+I learn best by building, breaking, and rebuilding.
 
 </td>
-<td width="38%" valign="top">
+<td width="40%" valign="top">
 
-**currently**
-
-`🜂` researching SpeechLLM accent adaptation @ **Samsung PRISM**
-
-`🜁` building memory layers for coding agents
-
-`🜃` 4× hackathon winner — incl. **1st / 60,000+**
-
-<br>
-
-**at a glance**
+**field notes**
 
 | | |
-|:--|:--|
+|:--:|:--|
+| 🔬 | researching at **Samsung PRISM** |
+| 🏆 | **4×** hackathon winner |
+| 🎓 | Comp. Eng. @ Thapar · **8.78** |
 | 📍 | Patiala, India |
-| 🎓 | B.E. Computer Engineering, Thapar |
-| 📊 | CGPA **8.78** |
-| 🌐 | [ikyano.tech](https://www.ikyano.tech/) |
+| ☕ | runs on curiosity & caffeine |
+| 🐛 | debugging ratio: *questionable* |
 
 </td>
 </tr>
 </table>
 
-<img src="./divider.svg" width="100%" alt=""/>
+<div align="center"><img src="./divider.svg" width="100%" alt=""/></div>
 
-## `02` &nbsp;selected work
+## ✦ the specimen cabinet
+
+<sub>things i've built, pinned and labelled for your viewing pleasure.</sub>
 
 <table>
-<tr><td>
+<tr>
+<td width="240" valign="top" align="center"><img src="./sop-opera.svg" width="220" alt="Specimen no.01 — a hard hat singing opera"/></td>
+<td valign="top">
 
-### 🜂 &nbsp;SOP Opera
-**agentic industrial safety intelligence**
+### SOP Opera
+*agentic industrial safety intelligence*
 
-<img src="https://img.shields.io/badge/🥇_1st_Place-Economic_Times_AI_Hackathon_2.0-FFB84D?style=flat-square&labelColor=04070D"/> <img src="https://img.shields.io/badge/60,000%2B_participants-071525?style=flat-square&labelColor=04070D"/> <img src="https://img.shields.io/badge/28_finalists-071525?style=flat-square&labelColor=04070D"/>
+<img src="https://img.shields.io/badge/🥇_1st_place-ET_AI_Hackathon_2.0-FF6FB5?style=flat-square&labelColor=241E4E"/> <img src="https://img.shields.io/badge/out_of-10,000%2B_teams-FFD45C?style=flat-square&labelColor=241E4E"/>
 
-A multi-agent system that catches **compound** operational risk before high-risk work gets approved. The hard part was never getting an LLM to answer questions — it was getting the system to reason over the whole situation at once: gas readings, work permits, isolation state, and worker location, *together*. Any one of those looks fine in isolation. The danger lives in the combination.
+A multi-agent system that catches **compound** risk before high-risk work gets approved. A gas reading, a work permit, an isolation state, a worker's location — each looks fine alone. The danger lives in the combination, so the system reasons over all of it at once.
 
-- **Compound risk engine** fusing four independent operational signals — catches hazards that single-sensor thresholds structurally cannot see
-- **LangGraph pipeline** with conditional agent fan-out, so the orchestration shape adapts to the situation instead of running a fixed chain
-- **Hybrid pgvector + SQL retrieval** over a clause-level regulatory corpus — every decision cites the clause it rests on
-- **Durable PostgreSQL job queue** and a non-blocking WebSocket layer with per-client backpressure
-- **Hash-chained audit trail** — tamper-evident record of every safety decision made
+- false negatives **44.5% → 0%** across 593 labelled cases; hazards caught **28 min** earlier
+- LangGraph pipeline with conditional agent fan-out
+- hybrid pgvector + SQL retrieval over clause-level regulations, so every call cites its rule
+- durable Postgres job queue, WebSockets with per-client backpressure, hash-chained audit trail
 
-<sub>`Python` · `TypeScript` · `FastAPI` · `LangGraph` · `PostgreSQL` · `pgvector` · `Next.js` · `Docker`</sub>
+<sub>`Python` `TypeScript` `FastAPI` `LangGraph` `PostgreSQL` `pgvector` `Next.js` `Docker`</sub>
 
-<a href="https://github.com/anoushkawasthi"><img src="https://img.shields.io/badge/source-071525?style=flat-square&logo=github&logoColor=5EEAD4&labelColor=04070D"/></a>
+<a href="https://github.com/anoushkawasthi"><img src="https://img.shields.io/badge/peek_inside_→-FFD45C?style=flat-square&logo=github&logoColor=241E4E"/></a>
 
-</td></tr>
+</td>
+</tr>
 </table>
 
 <table>
-<tr><td>
+<tr>
+<td width="240" valign="top" align="center"><img src="./flowsync.svg" width="220" alt="Specimen no.02 — a jar of whys"/></td>
+<td valign="top">
 
-### 🜁 &nbsp;FlowSync
-**persistent memory for coding agents**
+### FlowSync
+*persistent memory for coding agents*
 
-Coding agents can write code. They're not good at remembering *why* that code exists. FlowSync turns raw project activity into searchable, branch-aware institutional memory — so the agent arrives already knowing the decisions, the risks, and what got ruled out.
+Coding agents can write code. They're terrible at remembering *why* it exists. FlowSync collects the whys — decisions, risks, and tasks pulled straight out of git diffs — and keeps them in a jar your agent can reach into.
 
-```
-git diff ──▶ Bedrock ──▶ decisions · risks · tasks ──▶ branch-aware retrieval ──▶ your agent
-```
+- event-driven extraction from git diffs via Bedrock
+- VS Code extension + MCP server for logging, project search, and retrieval
+- branch-aware RAG with DynamoDB caching — **1.26s** median push → search (p95 1.60s)
 
-- **Event-driven extraction** pulling structured decisions, risks, and tasks straight out of git diffs
-- **VS Code extension + MCP server** for context logging, project search, and retrieval inside the editor
-- **Branch-aware RAG** with DynamoDB caching — **1.26s median** push-to-search, p95 1.60s
+<sub>`TypeScript` `Python` `AWS Bedrock` `Lambda` `DynamoDB` `S3` `MCP` `Next.js`</sub>
 
-<sub>`TypeScript` · `Python` · `AWS Bedrock` · `Lambda` · `DynamoDB` · `S3` · `MCP` · `Next.js`</sub>
+<a href="https://github.com/anoushkawasthi"><img src="https://img.shields.io/badge/peek_inside_→-FFD45C?style=flat-square&logo=github&logoColor=241E4E"/></a>
 
-<a href="https://github.com/anoushkawasthi"><img src="https://img.shields.io/badge/source-071525?style=flat-square&logo=github&logoColor=5EEAD4&labelColor=04070D"/></a>
-
-</td></tr>
+</td>
+</tr>
 </table>
 
 <table>
-<tr><td>
+<tr>
+<td width="240" valign="top" align="center"><img src="./konta.svg" width="220" alt="Specimen no.03 — a browser that remembers"/></td>
+<td valign="top">
 
-### 🜃 &nbsp;Konta
-**your browser remembers — locally**
+### Konta
+*your browser remembers — locally*
 
-<img src="https://img.shields.io/badge/🏆_Winner-Samsung_PRISM_Web_Agent_Hackathon-5EEAD4?style=flat-square&labelColor=04070D"/> <img src="https://img.shields.io/badge/450%2B_participants-071525?style=flat-square&labelColor=04070D"/>
+<img src="https://img.shields.io/badge/🏆_winner-Samsung_PRISM_Web_Agent_Hackathon-7EE0B5?style=flat-square&labelColor=241E4E"/>
 
-A local-first Chrome extension that turns browsing activity into a private knowledge layer. The embeddings never leave the device — no giant cloud brain required, and nothing to trust anyone with.
+A local-first Chrome extension that turns browsing into a private little constellation of everything you've read. The embeddings never leave home — no giant cloud brain required.
 
-- **On-device semantic embeddings** via Transformers.js + ONNX, running entirely in the browser
-- **Knowledge graph** linking pages across semantic, temporal, and contextual relationships
-- **Sessionization with context-boundary detection**, so unrelated tasks stop bleeding into each other
+- on-device semantic embeddings with Transformers.js + ONNX
+- knowledge graph linking pages by meaning, time, and context
+- session boundary detection, so unrelated rabbit holes stay separate
 
-<sub>`TypeScript` · `React` · `IndexedDB` · `Transformers.js` · `ONNX`</sub>
+<sub>`TypeScript` `React` `IndexedDB` `Transformers.js` `ONNX`</sub>
 
-<a href="https://github.com/anoushkawasthi"><img src="https://img.shields.io/badge/source-071525?style=flat-square&logo=github&logoColor=5EEAD4&labelColor=04070D"/></a>
+<a href="https://github.com/anoushkawasthi"><img src="https://img.shields.io/badge/peek_inside_→-FFD45C?style=flat-square&logo=github&logoColor=241E4E"/></a>
 
-</td></tr>
+</td>
+</tr>
 </table>
 
 <table>
-<tr><td>
+<tr>
+<td width="240" valign="top" align="center"><img src="./gina.svg" width="220" alt="Specimen no.04 — data, but chatty"/></td>
+<td valign="top">
 
-### 🜄 &nbsp;GINA
-**ask questions, get grounded data**
+### GINA
+*ask questions, get grounded data*
 
-Conversational analytics that turns natural language into *validated* SQL and streams the answer back — with the schema correcting itself when the question and the database disagree.
+Ask *"why did revenue drop?"* in plain words and get back validated SQL, real numbers, and an answer streamed as it's found.
 
-```
-"why did revenue drop?" ──▶ retrieval ──▶ SQL generation ──▶ validation ──▶ PostgreSQL ──▶ streamed insight
-```
+- multi-model NL → SQL pipeline with structured, grounded query generation
+- SSE streaming with fast-path routing over snapshots and cache restoration
+- multi-turn memory and schema self-correction loops
 
-- **Multi-model NL→SQL pipeline** with structured outputs and grounded query generation
-- **SSE streaming** with fast-path routing over snapshots and cache restoration
-- **Multi-turn conversation state**, semantic schema correction loops, failure-tolerant SSE error handling
+<sub>`Next.js` `TypeScript` `Fastify` `PostgreSQL` `Supabase` `SSE`</sub>
 
-<sub>`Next.js` · `TypeScript` · `Fastify` · `PostgreSQL` · `Supabase` · `SSE`</sub>
+<a href="https://github.com/anoushkawasthi"><img src="https://img.shields.io/badge/peek_inside_→-FFD45C?style=flat-square&logo=github&logoColor=241E4E"/></a>
 
-<a href="https://github.com/anoushkawasthi"><img src="https://img.shields.io/badge/source-071525?style=flat-square&logo=github&logoColor=5EEAD4&labelColor=04070D"/></a>
-
-</td></tr>
+</td>
+</tr>
 </table>
 
-<img src="./divider.svg" width="100%" alt=""/>
+<div align="center"><img src="./divider.svg" width="100%" alt=""/></div>
 
-## `03` &nbsp;research
+## ☾ research corner
 
 <table>
-<tr><td>
+<tr>
+<td width="240" valign="top" align="center"><img src="./research.svg" width="220" alt="Specimen no.05 — listening, properly"/></td>
+<td valign="top">
 
 ### Accent-Invariant Representation Learning for SpeechLLMs
-**Samsung PRISM** · *ongoing*
+*Samsung PRISM · ongoing*
 
-> How do you make a SpeechLLM robust to accented English **without** retraining the whole model?
+How do you teach a speech model to understand accented English **without** retraining the whole thing?
 
-- **Parameter-efficient adaptation** — LoRA adapters, MoE dynamic adapter routing, accent-aware front-end encoders
-- **Benchmarking** SALM, Qwen Audio, SALMONN across ASR/AST tasks
-- **Failure analysis** at speaker level *and* accent level, to find which accents are actually worth adapting to
-- Targeting a **peer-reviewed publication** as the closure deliverable
+- parameter-efficient adaptation: LoRA adapters, MoE dynamic adapter routing, accent-aware encoders
+- benchmarking SALM, Qwen Audio, and SALMONN
+- speaker- and accent-level failure analysis to find where models stumble
+- headed for a peer-reviewed publication
 
-<sub>`PyTorch` · `SALM` · `Qwen Audio` · `SALMONN` · `LoRA / PEFT`</sub>
+<sub>`PyTorch` `SALM` `Qwen Audio` `SALMONN` `LoRA / PEFT`</sub>
 
-**the goal — make speech models listen to the speaker, not the accent.**
+> *make speech models listen to the speaker, not the accent.*
 
-</td></tr>
+</td>
+</tr>
 </table>
 
-<img src="./divider.svg" width="100%" alt=""/>
+<div align="center"><img src="./divider.svg" width="100%" alt=""/></div>
 
-## `04` &nbsp;trophy shelf
+## ★ trophy shelf
 
 <div align="center">
 
 | | | |
-|:--|:--|:--|
-| <img src="https://img.shields.io/badge/🥇_1st_Place-FFB84D?style=flat-square&labelColor=04070D"/> | **Economic Times AI Hackathon 2.0** | 60,000+ participants · 10,000+ teams · 28 finalists |
-| <img src="https://img.shields.io/badge/🏆_Winner-5EEAD4?style=flat-square&labelColor=04070D"/> | **NioHack 2026** — Niograph Inc., USA | Innovate · Build · Transform |
-| <img src="https://img.shields.io/badge/🏆_Winner-5EEAD4?style=flat-square&labelColor=04070D"/> | **Samsung PRISM Web Agent Hackathon** | 450+ participants · 120+ teams |
-| <img src="https://img.shields.io/badge/✦_Innovation-38BDF8?style=flat-square&labelColor=04070D"/> | **Agentic AI Hackathon 2025** — Ulster University, UK | 150+ teams |
+|:--:|:--|:--|
+| <img src="https://img.shields.io/badge/🥇_1st-FF6FB5?style=for-the-badge"/> | **Economic Times AI Hackathon 2.0** | 60,000+ participants · 10,000+ teams · 28 finalists |
+| <img src="https://img.shields.io/badge/🏆_winner-5B7CFA?style=for-the-badge"/> | **NioHack 2026** · Niograph Inc., USA | innovate · build · transform |
+| <img src="https://img.shields.io/badge/🏆_winner-7EE0B5?style=for-the-badge"/> | **Samsung PRISM Web Agent Hackathon** | 450+ participants · 120+ teams |
+| <img src="https://img.shields.io/badge/✨_innovation-FFD45C?style=for-the-badge"/> | **Agentic AI Hackathon 2025** · Ulster University, UK | 150+ teams |
 
 </div>
 
-<img src="./divider.svg" width="100%" alt=""/>
+<div align="center"><img src="./divider.svg" width="100%" alt=""/></div>
 
-## `05` &nbsp;outside the terminal
+## ✎ where i've been
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
 ### Samsung PRISM
-`Research Intern` · **Sept 2026 — Present** · Remote
+`research intern` · **Sept 2026 — now** · remote
 
-SpeechLLMs, accented speech, and parameter-efficient adaptation. Benchmarking, failure analysis, and adapter routing — aimed at publication.
+SpeechLLMs, accented speech, and parameter-efficient adaptation. Benchmarks, failure analysis, adapter routing — aimed at publication.
 
 </td>
 <td width="50%" valign="top">
 
 ### BharatRohan
-`Software Developer Intern` · **Jul — Aug 2026** · Remote
+`software developer intern` · **Jul — Aug 2026** · remote
 
-Production geospatial features in React + OpenLayers — vector and raster layers, projections, coordinate reference systems, map interactions, spatial visualization.
+Production geospatial features in React + OpenLayers: vector and raster layers, projections, coordinate systems, and maps with far too many layers.
 
 </td>
 </tr>
 </table>
 
-<img src="./divider.svg" width="100%" alt=""/>
+<div align="center"><img src="./divider.svg" width="100%" alt=""/></div>
 
-## `06` &nbsp;the spellbook
+## ⚗ the spellbook
 
 <div align="center">
 
-<br>
+<sub>**languages**</sub><br>
+<img src="https://img.shields.io/badge/Python-FF6FB5?style=flat-square&logo=python&logoColor=241E4E"/> <img src="https://img.shields.io/badge/TypeScript-FF6FB5?style=flat-square&logo=typescript&logoColor=241E4E"/> <img src="https://img.shields.io/badge/JavaScript-FF6FB5?style=flat-square&logo=javascript&logoColor=241E4E"/> <img src="https://img.shields.io/badge/C++-FF6FB5?style=flat-square&logo=cplusplus&logoColor=241E4E"/>
 
-**languages**
+<sub>**build**</sub><br>
+<img src="https://img.shields.io/badge/React-5B7CFA?style=flat-square&logo=react&logoColor=white"/> <img src="https://img.shields.io/badge/Next.js-5B7CFA?style=flat-square&logo=nextdotjs&logoColor=white"/> <img src="https://img.shields.io/badge/Node.js-5B7CFA?style=flat-square&logo=nodedotjs&logoColor=white"/> <img src="https://img.shields.io/badge/Express-5B7CFA?style=flat-square&logo=express&logoColor=white"/> <img src="https://img.shields.io/badge/FastAPI-5B7CFA?style=flat-square&logo=fastapi&logoColor=white"/> <img src="https://img.shields.io/badge/Fastify-5B7CFA?style=flat-square&logo=fastify&logoColor=white"/>
 
-<img src="https://img.shields.io/badge/Python-071525?style=flat-square&logo=python&logoColor=5EEAD4&labelColor=04070D"/> <img src="https://img.shields.io/badge/TypeScript-071525?style=flat-square&logo=typescript&logoColor=5EEAD4&labelColor=04070D"/> <img src="https://img.shields.io/badge/JavaScript-071525?style=flat-square&logo=javascript&logoColor=5EEAD4&labelColor=04070D"/> <img src="https://img.shields.io/badge/C++-071525?style=flat-square&logo=cplusplus&logoColor=5EEAD4&labelColor=04070D"/>
+<sub>**think**</sub><br>
+<img src="https://img.shields.io/badge/LangGraph-B9A6FF?style=flat-square&logo=langchain&logoColor=241E4E"/> <img src="https://img.shields.io/badge/PyTorch-B9A6FF?style=flat-square&logo=pytorch&logoColor=241E4E"/> <img src="https://img.shields.io/badge/Transformers.js-B9A6FF?style=flat-square&logo=huggingface&logoColor=241E4E"/> <img src="https://img.shields.io/badge/ONNX-B9A6FF?style=flat-square&logo=onnx&logoColor=241E4E"/> <img src="https://img.shields.io/badge/MCP-B9A6FF?style=flat-square&logo=anthropic&logoColor=241E4E"/> <img src="https://img.shields.io/badge/RAG-B9A6FF?style=flat-square"/> <img src="https://img.shields.io/badge/embeddings-B9A6FF?style=flat-square"/>
 
-**build**
+<sub>**store**</sub><br>
+<img src="https://img.shields.io/badge/PostgreSQL-7EE0B5?style=flat-square&logo=postgresql&logoColor=241E4E"/> <img src="https://img.shields.io/badge/pgvector-7EE0B5?style=flat-square"/> <img src="https://img.shields.io/badge/MySQL-7EE0B5?style=flat-square&logo=mysql&logoColor=241E4E"/> <img src="https://img.shields.io/badge/Redis-7EE0B5?style=flat-square&logo=redis&logoColor=241E4E"/> <img src="https://img.shields.io/badge/DynamoDB-7EE0B5?style=flat-square&logo=amazondynamodb&logoColor=241E4E"/> <img src="https://img.shields.io/badge/Supabase-7EE0B5?style=flat-square&logo=supabase&logoColor=241E4E"/>
 
-<img src="https://img.shields.io/badge/React-071525?style=flat-square&logo=react&logoColor=5EEAD4&labelColor=04070D"/> <img src="https://img.shields.io/badge/Next.js-071525?style=flat-square&logo=nextdotjs&logoColor=5EEAD4&labelColor=04070D"/> <img src="https://img.shields.io/badge/Node.js-071525?style=flat-square&logo=nodedotjs&logoColor=5EEAD4&labelColor=04070D"/> <img src="https://img.shields.io/badge/Express-071525?style=flat-square&logo=express&logoColor=5EEAD4&labelColor=04070D"/> <img src="https://img.shields.io/badge/FastAPI-071525?style=flat-square&logo=fastapi&logoColor=5EEAD4&labelColor=04070D"/> <img src="https://img.shields.io/badge/PyTorch-071525?style=flat-square&logo=pytorch&logoColor=5EEAD4&labelColor=04070D"/>
-
-**think**
-
-<img src="https://img.shields.io/badge/LangGraph-071525?style=flat-square&logo=langchain&logoColor=5EEAD4&labelColor=04070D"/> <img src="https://img.shields.io/badge/MCP-071525?style=flat-square&logo=anthropic&logoColor=5EEAD4&labelColor=04070D"/> <img src="https://img.shields.io/badge/Transformers.js-071525?style=flat-square&logo=huggingface&logoColor=5EEAD4&labelColor=04070D"/> <img src="https://img.shields.io/badge/ONNX-071525?style=flat-square&logo=onnx&logoColor=5EEAD4&labelColor=04070D"/> <img src="https://img.shields.io/badge/RAG-071525?style=flat-square&labelColor=04070D&color=071525"/> <img src="https://img.shields.io/badge/Embeddings-071525?style=flat-square&labelColor=04070D"/> <img src="https://img.shields.io/badge/Semantic_Search-071525?style=flat-square&labelColor=04070D"/>
-
-**store**
-
-<img src="https://img.shields.io/badge/PostgreSQL-071525?style=flat-square&logo=postgresql&logoColor=5EEAD4&labelColor=04070D"/> <img src="https://img.shields.io/badge/pgvector-071525?style=flat-square&labelColor=04070D"/> <img src="https://img.shields.io/badge/MySQL-071525?style=flat-square&logo=mysql&logoColor=5EEAD4&labelColor=04070D"/> <img src="https://img.shields.io/badge/Redis-071525?style=flat-square&logo=redis&logoColor=5EEAD4&labelColor=04070D"/> <img src="https://img.shields.io/badge/DynamoDB-071525?style=flat-square&logo=amazondynamodb&logoColor=5EEAD4&labelColor=04070D"/> <img src="https://img.shields.io/badge/Supabase-071525?style=flat-square&logo=supabase&logoColor=5EEAD4&labelColor=04070D"/>
-
-**deploy**
-
-<img src="https://img.shields.io/badge/AWS-071525?style=flat-square&logo=amazonwebservices&logoColor=5EEAD4&labelColor=04070D"/> <img src="https://img.shields.io/badge/Lambda-071525?style=flat-square&logo=awslambda&logoColor=5EEAD4&labelColor=04070D"/> <img src="https://img.shields.io/badge/Docker-071525?style=flat-square&logo=docker&logoColor=5EEAD4&labelColor=04070D"/> <img src="https://img.shields.io/badge/GitHub_Actions-071525?style=flat-square&logo=githubactions&logoColor=5EEAD4&labelColor=04070D"/> <img src="https://img.shields.io/badge/Git-071525?style=flat-square&logo=git&logoColor=5EEAD4&labelColor=04070D"/>
-
-<br>
+<sub>**ship**</sub><br>
+<img src="https://img.shields.io/badge/AWS-FFD45C?style=flat-square&logo=amazonwebservices&logoColor=241E4E"/> <img src="https://img.shields.io/badge/Lambda-FFD45C?style=flat-square&logo=awslambda&logoColor=241E4E"/> <img src="https://img.shields.io/badge/Docker-FFD45C?style=flat-square&logo=docker&logoColor=241E4E"/> <img src="https://img.shields.io/badge/GitHub_Actions-FFD45C?style=flat-square&logo=githubactions&logoColor=241E4E"/> <img src="https://img.shields.io/badge/Git-FFD45C?style=flat-square&logo=git&logoColor=241E4E"/>
 
 </div>
 
-<img src="./divider.svg" width="100%" alt=""/>
+<div align="center"><img src="./divider.svg" width="100%" alt=""/></div>
 
-## `07` &nbsp;github, but make it statistics
+## ◔ github, but make it statistics
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=anoushkawasthi&show_icons=true&hide_border=true&hide_title=true&include_all_commits=true&bg_color=071525&icon_color=FFB84D&text_color=8CA3B8&ring_color=5EEAD4&title_color=5EEAD4"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anoushkawasthi&layout=compact&hide_border=true&langs_count=8&bg_color=071525&title_color=5EEAD4&text_color=8CA3B8"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=anoushkawasthi&show_icons=true&hide_title=true&include_all_commits=true&border_radius=16&bg_color=FFF6EC&border_color=241E4E&icon_color=5B7CFA&text_color=241E4E&ring_color=FF6FB5"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anoushkawasthi&layout=compact&langs_count=8&border_radius=16&bg_color=FFF6EC&border_color=241E4E&title_color=FF6FB5&text_color=241E4E"/>
 
 <br><br>
 
-<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=anoushkawasthi&bg_color=071525&color=5EEAD4&line=38BDF8&point=FFB84D&area=true&area_color=0E7490&hide_border=true&custom_title=contribution%20tides"/>
+<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=anoushkawasthi&bg_color=FFF6EC&color=241E4E&line=FF6FB5&point=5B7CFA&area=true&area_color=FFD45C&radius=16&custom_title=contribution%20tides"/>
 
 </div>
 
@@ -268,13 +257,8 @@ Production geospatial features in React + OpenLayers — vector and raster layer
 
 <div align="center">
 
-<img src="./footer.svg" width="100%" alt="welcome to the deep end — ikyano.tech"/>
+<img src="./footer.svg" width="100%" alt="A postcard from the deep end — thanks for swimming all the way down here"/>
 
-<br>
-
-<a href="https://www.ikyano.tech/"><img src="https://img.shields.io/badge/enter_the_other_side_→-071525?style=for-the-badge&logoColor=5EEAD4&labelColor=04070D"/></a>
-
-<br><br>
-
+<sub>made with curiosity, caffeine, and questionable amounts of debugging.</sub>
 
 </div>
